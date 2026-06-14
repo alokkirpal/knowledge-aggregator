@@ -2,10 +2,10 @@ import json
 import os
 from urllib.parse import urlparse
 
-from config import EVENT_SCOPE
-from classifier import classify_url, get_domain
-from fetcher import fetch_html, extract_title, extract_main_text, extract_links
-from processor import clean_text, chunk_text
+from src.config import EVENT_SCOPE
+from src.classifier import classify_url, get_domain
+from src.fetcher import fetch_html, extract_title, extract_main_text, extract_links
+from src.processor import clean_text, chunk_text
 
 
 def save_json(path: str, data):
