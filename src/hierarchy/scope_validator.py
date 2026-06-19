@@ -1,6 +1,99 @@
 import json
 from collections import defaultdict
 
+SUSPICIOUS_PATTERNS = [
+
+    "starter",
+    "stack",
+    "packet",
+    "practice",
+    "committee",
+    "created",
+    "textbook",
+    "guide"
+]
+
+KNOWN_MOONS = {
+
+    "Atlas",
+    "Styx",
+    "Pandora",
+    "Laomedeia",
+    "Psamathe"
+}
+
+DISCOVERER_NAMES = {
+
+    "Holman",
+    "Lassell",
+    "Showalter",
+    "Sheppard",
+    "Hall",
+    "Tempel",
+    "Weaver"
+}
+
+SCOPE_PATTERNS = [
+
+    "planet",
+    "moon",
+    "asteroid",
+    "comet",
+
+    "orbit",
+    "orbital",
+
+    "formation",
+    "evolution",
+
+    "mission",
+
+    "satellite",
+
+    "solar",
+
+    "jupiter",
+    "saturn",
+    "mars",
+    "venus",
+    "mercury",
+    "uranus",
+    "neptune",
+    "pluto",
+
+    "europa",
+    "ganymede",
+    "callisto",
+    "titan",
+
+    "voyager",
+    "cassini",
+    "juno",
+    "kepler",
+    "galileo"
+]
+
+
+OUT_OF_SCOPE_PATTERNS = [
+
+    "black hole",
+    "supernova",
+    "neutron star",
+
+    "dark matter",
+    "dark energy",
+
+    "galaxy",
+    "galaxies",
+
+    "cosmology",
+
+    "big bang",
+
+    "string theory",
+
+    "quantum"
+]
 
 SOLAR_SYSTEM_CORE_TOPICS = {
 
@@ -132,7 +225,66 @@ KNOWN_NOISE = {
     "Links"
 }
 
+def classify_topic(topic):
 
+    topic_lower = topic.lower()
+
+    if topic in KNOWN_NOISE:
+
+        return (
+            "NOISE",
+            "Known noise topic"
+        )
+
+    if topic in SOLAR_SYSTEM_CORE_TOPICS:
+
+        return (
+            "IN_SCOPE",
+            "Explicitly known Solar System topic"
+        )
+    if topic in DISCOVERER_NAMES:
+
+        return (
+            "LIKELY_IN_SCOPE",
+            "Known astronomy discoverer"
+        )
+    if topic in KNOWN_MOONS:
+
+        return (
+            "IN_SCOPE",
+            "Known Solar System moon"
+        )
+    for pattern in SUSPICIOUS_PATTERNS:
+
+        if pattern in topic_lower:
+
+            return (
+                "SUSPICIOUS",
+                f"Matched suspicious pattern: {pattern}"
+            )
+
+    for pattern in OUT_OF_SCOPE_PATTERNS:
+
+        if pattern in topic_lower:
+
+            return (
+                "OUT_OF_SCOPE",
+                f"Matched out-of-scope pattern: {pattern}"
+            )
+
+    for pattern in SCOPE_PATTERNS:
+
+        if pattern in topic_lower:
+
+            return (
+                "LIKELY_IN_SCOPE",
+                f"Matched scope pattern: {pattern}"
+            )
+
+    return (
+        "REVIEW",
+        "No rule matched"
+    )
 def get_all_topics(node):
 
     topics = []
@@ -158,7 +310,9 @@ def get_all_topics(node):
 
 def validate_scope(hierarchy):
 
-    topics = get_all_topics(hierarchy)
+    topics = get_all_topics(
+        hierarchy
+    )
 
     report = {
 
@@ -166,38 +320,82 @@ def validate_scope(hierarchy):
 
         "in_scope": [],
 
+        "likely_in_scope": [],
+
+        "review": [],
+
         "out_of_scope": [],
 
-        "unknown": [],
+        "noise": [],
 
         "scope_score": 0
     }
 
+    total_score = 0
+
     for topic in topics:
 
-        if topic in SOLAR_SYSTEM_CORE_TOPICS:
+        status, reason = classify_topic(
+            topic
+        )
 
-            report["in_scope"].append(topic)
+        entry = {
 
-        elif topic in KNOWN_NOISE:
+            "topic": topic,
 
-            report["out_of_scope"].append(topic)
+            "reason": reason
+        }
 
-        else:
+        if status == "IN_SCOPE":
 
-            report["unknown"].append(topic)
+            report["in_scope"].append(
+                entry
+            )
+
+            total_score += 1.0
+
+        elif status == "LIKELY_IN_SCOPE":
+
+            report[
+                "likely_in_scope"
+            ].append(
+                entry
+            )
+
+            total_score += 0.8
+
+        elif status == "REVIEW":
+
+            report["review"].append(
+                entry
+            )
+
+            total_score += 0.3
+
+        elif status == "OUT_OF_SCOPE":
+
+            report[
+                "out_of_scope"
+            ].append(
+                entry
+            )
+
+        elif status == "NOISE":
+
+            report["noise"].append(
+                entry
+            )
 
     report["scope_score"] = round(
 
-        len(report["in_scope"])
-        / max(len(topics), 1),
+        total_score /
+
+        max(len(topics), 1),
 
         3
-
     )
 
     return report
-
 
 def print_report(report):
 
@@ -210,35 +408,30 @@ def print_report(report):
     )
 
     print(
-        f"In Scope: {len(report['in_scope'])}"
+        f"In Scope: "
+        f"{len(report['in_scope'])}"
     )
 
     print(
-        f"Unknown: {len(report['unknown'])}"
+        f"Likely In Scope: "
+        f"{len(report['likely_in_scope'])}"
     )
 
     print(
-        f"Out Of Scope: {len(report['out_of_scope'])}"
+        f"Review: "
+        f"{len(report['review'])}"
     )
 
     print(
-        f"\nScope Score: "
-        f"{report['scope_score']:.3f}"
+        f"Out Of Scope: "
+        f"{len(report['out_of_scope'])}"
     )
 
-    print("\n--- Out Of Scope ---")
+    print(
+        f"Noise: "
+        f"{len(report['noise'])}"
+    )
 
-    for topic in sorted(
-        report["out_of_scope"]
-    ):
-        print(topic)
-
-    print("\n--- Unknown ---")
-
-    for topic in sorted(
-        report["unknown"]
-    ):
-        print(topic)
 
 
 if __name__ == "__main__":

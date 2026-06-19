@@ -2,6 +2,8 @@ import json
 import requests
 from bs4 import BeautifulSoup
 from pathlib import Path
+from collections import deque
+from urllib.parse import urlparse
 
 
 class Crawler:
@@ -53,16 +55,72 @@ class Crawler:
 
         return links
 
-    def crawl(self, seed_urls):
+    def crawl(
+        self,
+        seed_urls,
+        max_pages=50
+    ):
 
         sources = []
 
-        for url in seed_urls:
+        queue = deque(seed_urls)
+
+        KEYWORDS = {
+
+            "solar",
+            "planet",
+            "planetary",
+
+            "jupiter",
+            "saturn",
+            "mars",
+            "venus",
+            "mercury",
+            "uranus",
+            "neptune",
+
+            "pluto",
+
+            "asteroid",
+            "comet",
+
+            "kuiper",
+            "oort",
+
+            "moon",
+            "europa",
+            "titan",
+
+            "voyager",
+            "cassini",
+            "juno",
+
+            "kepler",
+            "tess"
+        }
+
+        ALLOWED_DOMAINS = {
+
+            "soinc.org",
+            "scioly.org",
+            "nasa.gov",
+            "jpl.nasa.gov",
+            "solarsystem.nasa.gov"
+        }
+
+        while queue and len(self.visited) < max_pages:
+
+            url = queue.popleft()
 
             if url in self.visited:
                 continue
 
             self.visited.add(url)
+
+            print(
+                f"[{len(self.visited)}] "
+                f"{url}"
+            )
 
             html = self.fetch(url)
 
@@ -74,11 +132,48 @@ class Crawler:
                 "url": url,
 
                 "html": html
-
             })
 
-        return sources
+            links = self.extract_links(
+                html,
+                url
+            )
 
+            for link in links:
+
+                if link in self.visited:
+                    continue
+
+                parsed = urlparse(link)
+
+                domain = parsed.netloc.lower()
+
+                if domain.startswith(
+                    "www."
+                ):
+                    domain = domain[4:]
+
+                allowed = any(
+                    domain.endswith(d)
+                    for d in ALLOWED_DOMAINS
+                )
+
+                if not allowed:
+                    continue
+
+                link_lower = link.lower()
+
+                relevant = any(
+                    keyword in link_lower
+                    for keyword in KEYWORDS
+                )
+
+                if not relevant:
+                    continue
+
+                queue.append(link)
+
+        return sources
 
 if __name__ == "__main__":
 

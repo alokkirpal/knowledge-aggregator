@@ -1,0 +1,561 @@
+{
+  "total_topics": 137,
+  "in_scope": [
+    {
+      "topic": "Jupiter",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Earth",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Saturn",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Neptune",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Mars",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Uranus",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Mercury",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Venus",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Pluto",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Kuiper Belt",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Oort Cloud",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Ceres",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Trojan",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Europa",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Ganymede",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Callisto",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Tethys",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Dione",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Enceladus",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Charon",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Mimas",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Titan",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Hot Jupiters",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Planet Formation",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Hot Neptunes",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Orbital Period",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Kepler",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Kepler's Laws",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Resonance",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Cassini",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Voyager",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "New Horizons",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Juno",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Huygens",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Galileo",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Herschel",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Nicholas Copernicus",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Tycho Brahe",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Solar System",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Diameter",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Terrestrial Bodies",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Distance",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Moon",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Extraterrestrial Water",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Gas Giants",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Orbital Mechanics",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Dust",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Eris",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Haumea",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Makemake",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Sedna",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Mass",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "The Sun",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Hydrogen",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Helium",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Inner Planets",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Positions",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Asteroids",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Deimos",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Rhea",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Hyperion",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Triton",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Kerberos",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Hydra",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Escape Velocity",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Lagrangian",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Galileo Galilei",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Johannes Kepler",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Clyde Tombaugh",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Edmond Halley",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Hubble Space Telescope",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Arrokoth",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Vesta",
+      "reason": "Explicitly known Solar System topic"
+    },
+    {
+      "topic": "Itokawa",
+      "reason": "Explicitly known Solar System topic"
+    }
+  ],
+  "likely_in_scope": [
+    {
+      "topic": "Evolution Planets",
+      "reason": "Matched scope pattern: planet"
+    },
+    {
+      "topic": "Terrestrial Planets The",
+      "reason": "Matched scope pattern: planet"
+    },
+    {
+      "topic": "Hot Jupiter",
+      "reason": "Matched scope pattern: jupiter"
+    }
+  ],
+  "review": [
+    {
+      "topic": "Atlas",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Styx",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Pandora",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Discoverer",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Holman",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Prehistory",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Pisa",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Universe",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Space Science Committee Created",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Dark",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Lassell",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Showalter",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Sheppard",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Tempel",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Earth Science Starter Stack",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Bodies",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Chemical",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Sedna Sedna",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Hall",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Laomedeia",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Psamathe",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Weaver",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Selenehelion",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Technically",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Greek",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Total",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Annular Eclipse",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Annular",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Force",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Gravitational Attraction Every",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Metis",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Adrastea",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Amalthea",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Thebe",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Daphnis",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Prometheus",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Aegaeon",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Cordelia",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Ophelia",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Telesto",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Calypso",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Italy",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Florence",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Tycho",
+      "reason": "No rule matched"
+    },
+    {
+      "topic": "Polish",
+      "reason": "No rule matched"
+    }
+  ],
+  "out_of_scope": [],
+  "noise": [
+    {
+      "topic": "These",
+      "reason": "Known noise topic"
+    },
+    {
+      "topic": "Since",
+      "reason": "Known noise topic"
+    },
+    {
+      "topic": "However",
+      "reason": "Known noise topic"
+    },
+    {
+      "topic": "After",
+      "reason": "Known noise topic"
+    },
+    {
+      "topic": "Finally",
+      "reason": "Known noise topic"
+    },
+    {
+      "topic": "September",
+      "reason": "Known noise topic"
+    },
+    {
+      "topic": "Most",
+      "reason": "Known noise topic"
+    },
+    {
+      "topic": "Because",
+      "reason": "Known noise topic"
+    },
+    {
+      "topic": "Their",
+      "reason": "Known noise topic"
+    },
+    {
+      "topic": "Very",
+      "reason": "Known noise topic"
+    },
+    {
+      "topic": "July",
+      "reason": "Known noise topic"
+    },
+    {
+      "topic": "Microsoft Excel",
+      "reason": "Known noise topic"
+    },
+    {
+      "topic": "Later",
+      "reason": "Known noise topic"
+    },
+    {
+      "topic": "Even",
+      "reason": "Known noise topic"
+    },
+    {
+      "topic": "Note",
+      "reason": "Known noise topic"
+    }
+  ],
+  "scope_score": 0.656
+}
