@@ -1,0 +1,550 @@
+[
+  {
+    "topic": "Jupiter",
+    "mentions": 30
+  },
+  {
+    "topic": "Earth",
+    "mentions": 28
+  },
+  {
+    "topic": "Solar System",
+    "mentions": 24
+  },
+  {
+    "topic": "Saturn",
+    "mentions": 20
+  },
+  {
+    "topic": "Neptune",
+    "mentions": 16
+  },
+  {
+    "topic": "Pluto",
+    "mentions": 14
+  },
+  {
+    "topic": "Mars",
+    "mentions": 11
+  },
+  {
+    "topic": "Uranus",
+    "mentions": 11
+  },
+  {
+    "topic": "Kuiper Belt",
+    "mentions": 11
+  },
+  {
+    "topic": "Galileo",
+    "mentions": 9
+  },
+  {
+    "topic": "These",
+    "mentions": 9
+  },
+  {
+    "topic": "Diameter",
+    "mentions": 9
+  },
+  {
+    "topic": "Cassini",
+    "mentions": 8
+  },
+  {
+    "topic": "Terrestrial Bodies",
+    "mentions": 8
+  },
+  {
+    "topic": "Discoverer",
+    "mentions": 8
+  },
+  {
+    "topic": "Distance",
+    "mentions": 8
+  },
+  {
+    "topic": "Orbital Period",
+    "mentions": 8
+  },
+  {
+    "topic": "Europa",
+    "mentions": 8
+  },
+  {
+    "topic": "Voyager",
+    "mentions": 8
+  },
+  {
+    "topic": "Hot Jupiters",
+    "mentions": 8
+  },
+  {
+    "topic": "Oort Cloud",
+    "mentions": 8
+  },
+  {
+    "topic": "Ganymede",
+    "mentions": 7
+  },
+  {
+    "topic": "Holman",
+    "mentions": 7
+  },
+  {
+    "topic": "Kepler",
+    "mentions": 6
+  },
+  {
+    "topic": "Mercury",
+    "mentions": 6
+  },
+  {
+    "topic": "Venus",
+    "mentions": 6
+  },
+  {
+    "topic": "Prehistory",
+    "mentions": 6
+  },
+  {
+    "topic": "Moon",
+    "mentions": 6
+  },
+  {
+    "topic": "Herschel",
+    "mentions": 6
+  },
+  {
+    "topic": "Kepler's Laws",
+    "mentions": 6
+  },
+  {
+    "topic": "New Horizons",
+    "mentions": 5
+  },
+  {
+    "topic": "Callisto",
+    "mentions": 5
+  },
+  {
+    "topic": "Tethys",
+    "mentions": 5
+  },
+  {
+    "topic": "Dione",
+    "mentions": 5
+  },
+  {
+    "topic": "Planet Formation",
+    "mentions": 4
+  },
+  {
+    "topic": "Extraterrestrial Water",
+    "mentions": 4
+  },
+  {
+    "topic": "Ceres",
+    "mentions": 4
+  },
+  {
+    "topic": "Enceladus",
+    "mentions": 4
+  },
+  {
+    "topic": "Charon",
+    "mentions": 4
+  },
+  {
+    "topic": "Hot Neptunes",
+    "mentions": 4
+  },
+  {
+    "topic": "Trojan",
+    "mentions": 4
+  },
+  {
+    "topic": "Pisa",
+    "mentions": 4
+  },
+  {
+    "topic": "Nicholas Copernicus",
+    "mentions": 4
+  },
+  {
+    "topic": "Universe",
+    "mentions": 3
+  },
+  {
+    "topic": "Space Science Committee Created",
+    "mentions": 3
+  },
+  {
+    "topic": "Juno",
+    "mentions": 3
+  },
+  {
+    "topic": "Gas Giants",
+    "mentions": 3
+  },
+  {
+    "topic": "Since",
+    "mentions": 3
+  },
+  {
+    "topic": "Dark",
+    "mentions": 3
+  },
+  {
+    "topic": "Atlas",
+    "mentions": 3
+  },
+  {
+    "topic": "Mimas",
+    "mentions": 3
+  },
+  {
+    "topic": "Titan",
+    "mentions": 3
+  },
+  {
+    "topic": "Lassell",
+    "mentions": 3
+  },
+  {
+    "topic": "Showalter",
+    "mentions": 3
+  },
+  {
+    "topic": "Sheppard",
+    "mentions": 3
+  },
+  {
+    "topic": "Styx",
+    "mentions": 3
+  },
+  {
+    "topic": "Pandora",
+    "mentions": 3
+  },
+  {
+    "topic": "Resonance",
+    "mentions": 3
+  },
+  {
+    "topic": "Tycho Brahe",
+    "mentions": 3
+  },
+  {
+    "topic": "Orbital Mechanics",
+    "mentions": 3
+  },
+  {
+    "topic": "Tempel",
+    "mentions": 3
+  },
+  {
+    "topic": "Huygens",
+    "mentions": 2
+  },
+  {
+    "topic": "Earth Science Starter Stack",
+    "mentions": 2
+  },
+  {
+    "topic": "However",
+    "mentions": 2
+  },
+  {
+    "topic": "Bodies",
+    "mentions": 2
+  },
+  {
+    "topic": "After",
+    "mentions": 2
+  },
+  {
+    "topic": "Chemical",
+    "mentions": 2
+  },
+  {
+    "topic": "Finally",
+    "mentions": 2
+  },
+  {
+    "topic": "Evolution Planets",
+    "mentions": 2
+  },
+  {
+    "topic": "Dust",
+    "mentions": 2
+  },
+  {
+    "topic": "Eris",
+    "mentions": 2
+  },
+  {
+    "topic": "Haumea",
+    "mentions": 2
+  },
+  {
+    "topic": "Makemake",
+    "mentions": 2
+  },
+  {
+    "topic": "Sedna",
+    "mentions": 2
+  },
+  {
+    "topic": "Mass",
+    "mentions": 2
+  },
+  {
+    "topic": "September",
+    "mentions": 2
+  },
+  {
+    "topic": "The Sun",
+    "mentions": 2
+  },
+  {
+    "topic": "Hydrogen",
+    "mentions": 2
+  },
+  {
+    "topic": "Helium",
+    "mentions": 2
+  },
+  {
+    "topic": "Most",
+    "mentions": 2
+  },
+  {
+    "topic": "Because",
+    "mentions": 2
+  },
+  {
+    "topic": "Inner Planets",
+    "mentions": 2
+  },
+  {
+    "topic": "Terrestrial Planets The",
+    "mentions": 2
+  },
+  {
+    "topic": "Sedna Sedna",
+    "mentions": 2
+  },
+  {
+    "topic": "Their",
+    "mentions": 2
+  },
+  {
+    "topic": "Positions",
+    "mentions": 2
+  },
+  {
+    "topic": "Asteroids",
+    "mentions": 2
+  },
+  {
+    "topic": "Very",
+    "mentions": 2
+  },
+  {
+    "topic": "July",
+    "mentions": 2
+  },
+  {
+    "topic": "Deimos",
+    "mentions": 2
+  },
+  {
+    "topic": "Hall",
+    "mentions": 2
+  },
+  {
+    "topic": "Rhea",
+    "mentions": 2
+  },
+  {
+    "topic": "Hyperion",
+    "mentions": 2
+  },
+  {
+    "topic": "Triton",
+    "mentions": 2
+  },
+  {
+    "topic": "Laomedeia",
+    "mentions": 2
+  },
+  {
+    "topic": "Psamathe",
+    "mentions": 2
+  },
+  {
+    "topic": "Weaver",
+    "mentions": 2
+  },
+  {
+    "topic": "Kerberos",
+    "mentions": 2
+  },
+  {
+    "topic": "Hydra",
+    "mentions": 2
+  },
+  {
+    "topic": "Hot Jupiter",
+    "mentions": 2
+  },
+  {
+    "topic": "Selenehelion",
+    "mentions": 2
+  },
+  {
+    "topic": "Technically",
+    "mentions": 2
+  },
+  {
+    "topic": "Greek",
+    "mentions": 2
+  },
+  {
+    "topic": "Total",
+    "mentions": 2
+  },
+  {
+    "topic": "Annular Eclipse",
+    "mentions": 2
+  },
+  {
+    "topic": "Annular",
+    "mentions": 2
+  },
+  {
+    "topic": "Force",
+    "mentions": 2
+  },
+  {
+    "topic": "Gravitational Attraction Every",
+    "mentions": 2
+  },
+  {
+    "topic": "Escape Velocity",
+    "mentions": 2
+  },
+  {
+    "topic": "Microsoft Excel",
+    "mentions": 2
+  },
+  {
+    "topic": "Metis",
+    "mentions": 2
+  },
+  {
+    "topic": "Adrastea",
+    "mentions": 2
+  },
+  {
+    "topic": "Amalthea",
+    "mentions": 2
+  },
+  {
+    "topic": "Thebe",
+    "mentions": 2
+  },
+  {
+    "topic": "Daphnis",
+    "mentions": 2
+  },
+  {
+    "topic": "Prometheus",
+    "mentions": 2
+  },
+  {
+    "topic": "Aegaeon",
+    "mentions": 2
+  },
+  {
+    "topic": "Cordelia",
+    "mentions": 2
+  },
+  {
+    "topic": "Ophelia",
+    "mentions": 2
+  },
+  {
+    "topic": "Lagrangian",
+    "mentions": 2
+  },
+  {
+    "topic": "Telesto",
+    "mentions": 2
+  },
+  {
+    "topic": "Calypso",
+    "mentions": 2
+  },
+  {
+    "topic": "Galileo Galilei",
+    "mentions": 2
+  },
+  {
+    "topic": "Italy",
+    "mentions": 2
+  },
+  {
+    "topic": "Florence",
+    "mentions": 2
+  },
+  {
+    "topic": "Johannes Kepler",
+    "mentions": 2
+  },
+  {
+    "topic": "Later",
+    "mentions": 2
+  },
+  {
+    "topic": "Tycho",
+    "mentions": 2
+  },
+  {
+    "topic": "Clyde Tombaugh",
+    "mentions": 2
+  },
+  {
+    "topic": "Even",
+    "mentions": 2
+  },
+  {
+    "topic": "Polish",
+    "mentions": 2
+  },
+  {
+    "topic": "Edmond Halley",
+    "mentions": 2
+  },
+  {
+    "topic": "Note",
+    "mentions": 2
+  },
+  {
+    "topic": "Hubble Space Telescope",
+    "mentions": 2
+  },
+  {
+    "topic": "Arrokoth",
+    "mentions": 2
+  },
+  {
+    "topic": "Vesta",
+    "mentions": 2
+  },
+  {
+    "topic": "Itokawa",
+    "mentions": 2
+  }
+]

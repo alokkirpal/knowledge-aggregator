@@ -1,105 +1,114 @@
 import json
 import os
-from urllib.parse import urlparse
-
-from src.config import EVENT_SCOPE
-from src.classifier import classify_url, get_domain
-from src.fetcher import fetch_html, extract_title, extract_main_text, extract_links
-from src.processor import clean_text, chunk_text
+from crawler.crawler import Crawler
+from extractor.extractor import Extractor
+from processor.chunker import Chunker
 
 
-def save_json(path: str, data):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
+SEED_URLS = [
+
+    "https://www.soinc.org/solar-system-b",
+
+    "https://scioly.org/wiki/Solar_System"
+
+]
 
 
 def main():
-    output_dir = EVENT_SCOPE["output_dir"]
-    os.makedirs(output_dir, exist_ok=True)
 
-    all_sources = []
-    all_chunks = []
-    discovered_urls = set()
+    crawler = Crawler()
 
-    for seed_url in EVENT_SCOPE["seed_urls"]:
-        print(f"\nProcessing seed URL: {seed_url}")
+    extractor = Extractor()
 
-        seed_classification = classify_url(seed_url)
+    chunker = Chunker()
 
-        source_record = {
-            "url": seed_url,
-            "domain": get_domain(seed_url),
-            "event": EVENT_SCOPE["event"],
-            "division": EVENT_SCOPE["division"],
-            "season_year": EVENT_SCOPE["season_year"],
-            **seed_classification
-        }
+    print("Crawling...")
 
-        if not seed_classification["is_text_extractable"]:
-            all_sources.append(source_record)
-            continue
+    sources = crawler.crawl(
+        SEED_URLS,
+        max_pages=50
+    )
 
-        try:
-            html = fetch_html(seed_url)
-            title = extract_title(html)
-            raw_text = extract_main_text(html, seed_url)
-            cleaned_text = clean_text(raw_text)
-            chunks = chunk_text(cleaned_text)
+    print(
+        f"Sources: {len(sources)}"
+    )
+    
+    os.makedirs(
+        "data/output",
+        exist_ok=True
+    )
 
-            source_record.update({
-                "title": title,
-                "crawl_status": "processed",
-                "raw_text_length": len(raw_text),
-                "cleaned_text_length": len(cleaned_text),
-                "num_chunks": len(chunks)
-            })
+    with open(
+        "data/output/sources.json",
+        "w"
+    ) as f:
 
-            all_sources.append(source_record)
+        json.dump(
+            sources,
+            f,
+            indent=2
+        )
 
-            for index, chunk in enumerate(chunks):
-                all_chunks.append({
-                    "source_url": seed_url,
-                    "chunk_index": index,
-                    "event": EVENT_SCOPE["event"],
-                    "division": EVENT_SCOPE["division"],
-                    "season_year": EVENT_SCOPE["season_year"],
-                    "content": chunk
-                })
+    print(
+        "Saved sources.json"
+    )
+    
+    print("Extracting...")
 
-            links = extract_links(html, seed_url)
+    docs = extractor.process_sources(
+        sources
+    )
 
-            for link in links:
-                if link in discovered_urls:
-                    continue
+    print(
+        f"Documents: {len(docs)}"
+    )
+    
+    os.makedirs(
+        "data/processed",
+        exist_ok=True
+    )
 
-                discovered_urls.add(link)
-                classification = classify_url(link)
+    with open(
+        "data/processed/documents.json",
+        "w"
+    ) as f:
 
-                all_sources.append({
-                    "url": link,
-                    "domain": get_domain(link),
-                    "parent_seed_url": seed_url,
-                    "event": EVENT_SCOPE["event"],
-                    "division": EVENT_SCOPE["division"],
-                    "season_year": EVENT_SCOPE["season_year"],
-                    **classification
-                })
+        json.dump(
+            docs,
+            f,
+            indent=2
+        )
 
-        except Exception as e:
-            source_record.update({
-                "crawl_status": "failed",
-                "error": str(e)
-            })
-            all_sources.append(source_record)
+    print(
+        "Saved documents.json"
+    )
 
-    save_json(os.path.join(output_dir, "sources.json"), all_sources)
-    save_json(os.path.join(output_dir, "chunks.json"), all_chunks)
+    print("Chunking...")
 
-    print("\nPipeline completed.")
-    print(f"Sources saved: {len(all_sources)}")
-    print(f"Chunks saved: {len(all_chunks)}")
-    print(f"Output folder: {output_dir}")
+    chunks = chunker.process_documents(
+        docs
+    )
 
+    print(
+        f"Chunks: {len(chunks)}"
+    )
+    
+
+    with open(
+        "data/output/chunks.json",
+        "w"
+    ) as f:
+
+        json.dump(
+            chunks,
+            f,
+            indent=2
+        )
+
+    print(
+        "Saved chunks.json"
+    )
 
 if __name__ == "__main__":
+
     main()

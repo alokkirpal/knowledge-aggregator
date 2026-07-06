@@ -1,0 +1,35 @@
+{
+    "event": "Solar System",
+    "competition": "Science Olympiad",
+    "division": "B",
+    "season_year": 2026,
+    "scope": "Solar System for Science Olympiad Division B 2026",
+    "must_know": [
+        "Planet formation",
+        "Solar System structure",
+        "Terrestrial planets",
+        "Gas giants",
+        "Ice giants",
+        "Dwarf planets",
+        "Moons and natural satellites",
+        "Asteroids",
+        "Comets",
+        "Meteoroids, meteors, and meteorites",
+        "Planetary atmospheres",
+        "Planetary interiors",
+        "Orbital and rotational motion",
+        "Space missions and observations"
+    ],
+    "good_to_know": [
+        "Comparative planetology",
+        "Mission instruments",
+        "Basic exoplanet context if included in official resources"
+    ],
+    "out_of_scope": [
+        "General relativity",
+        "Advanced astrophysics",
+        "Complex orbital mechanics derivations",
+        "Deep cosmology",
+        "Video-only content in phase 1"
+    ]
+}

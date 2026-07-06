@@ -1,0 +1,137 @@
+{
+    "name": "Solar System for Science Olympiad Division B 2026",
+    "children": [
+        {
+            "name": "Planet Formation",
+            "priority": "high",
+            "children": [
+                {
+                    "name": "Nebular Hypothesis",
+                    "priority": "high"
+                },
+                {
+                    "name": "Accretion",
+                    "priority": "high"
+                },
+                {
+                    "name": "Planetary Differentiation",
+                    "priority": "medium"
+                }
+            ]
+        },
+        {
+            "name": "Solar System Structure",
+            "priority": "high",
+            "children": [
+                {
+                    "name": "Sun",
+                    "priority": "high"
+                },
+                {
+                    "name": "Inner Planets",
+                    "priority": "high"
+                },
+                {
+                    "name": "Outer Planets",
+                    "priority": "high"
+                },
+                {
+                    "name": "Dwarf Planets",
+                    "priority": "high"
+                },
+                {
+                    "name": "Asteroid Belt",
+                    "priority": "medium"
+                },
+                {
+                    "name": "Kuiper Belt",
+                    "priority": "medium"
+                }
+            ]
+        },
+        {
+            "name": "Planetary Properties",
+            "priority": "high",
+            "children": [
+                {
+                    "name": "Atmospheres",
+                    "priority": "high"
+                },
+                {
+                    "name": "Interiors",
+                    "priority": "high"
+                },
+                {
+                    "name": "Surfaces",
+                    "priority": "medium"
+                },
+                {
+                    "name": "Magnetic Fields",
+                    "priority": "medium"
+                },
+                {
+                    "name": "Moons and Rings",
+                    "priority": "high"
+                }
+            ]
+        },
+        {
+            "name": "Small Solar System Bodies",
+            "priority": "high",
+            "children": [
+                {
+                    "name": "Asteroids",
+                    "priority": "high"
+                },
+                {
+                    "name": "Comets",
+                    "priority": "high"
+                },
+                {
+                    "name": "Meteoroids, Meteors, and Meteorites",
+                    "priority": "high"
+                }
+            ]
+        },
+        {
+            "name": "Motion and Observational Phenomena",
+            "priority": "medium",
+            "children": [
+                {
+                    "name": "Rotation and Revolution",
+                    "priority": "high"
+                },
+                {
+                    "name": "Orbital Period",
+                    "priority": "medium"
+                },
+                {
+                    "name": "Eclipses",
+                    "priority": "medium"
+                },
+                {
+                    "name": "Transits",
+                    "priority": "medium"
+                }
+            ]
+        },
+        {
+            "name": "Missions and Observations",
+            "priority": "medium",
+            "children": [
+                {
+                    "name": "Solar System Missions",
+                    "priority": "medium"
+                },
+                {
+                    "name": "Telescopes and Instruments",
+                    "priority": "medium"
+                },
+                {
+                    "name": "Data and Image Interpretation",
+                    "priority": "medium"
+                }
+            ]
+        }
+    ]
+}
