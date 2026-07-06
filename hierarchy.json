@@ -1,0 +1,1383 @@
+{
+    "domain": "Solar System Astrophysics and Planetary Evolution",
+    "entities": [
+        {
+            "id": "solar_system",
+            "name": "Solar System",
+            "type": "Celestial System",
+            "description": "The gravitationally bound planetary system consisting of the Sun and all the objects that orbit it, formed approximately 4.57 billion years ago."
+        },
+        {
+            "id": "star_sun",
+            "name": "Sun",
+            "type": "Star",
+            "description": "The main-sequence star located at the center of the Solar System, composed primarily of hydrogen and helium, which generates energy via nuclear fusion."
+        },
+        {
+            "id": "planet_mercury",
+            "name": "Mercury",
+            "type": "Terrestrial Planet",
+            "description": "The innermost rocky planet in the Solar System, characterized by its lack of natural satellites and highly cratered surface."
+        },
+        {
+            "id": "planet_venus",
+            "name": "Venus",
+            "type": "Terrestrial Planet",
+            "description": "The second planet from the Sun, featuring a dense atmosphere, extreme greenhouse heating, and no moons."
+        },
+        {
+            "id": "planet_earth",
+            "name": "Earth",
+            "type": "Terrestrial Planet",
+            "description": "The third planet from the Sun, characterized by its dynamic geological activity, surface water, and one natural satellite."
+        },
+        {
+            "id": "planet_mars",
+            "name": "Mars",
+            "type": "Terrestrial Planet",
+            "description": "The fourth rocky planet from the Sun, containing a thin atmosphere, surface craters, and two small natural satellites."
+        },
+        {
+            "id": "planet_jupiter",
+            "name": "Jupiter",
+            "type": "Gas Giant Planet",
+            "description": "The largest planet in the Solar System, a gas giant primarily composed of hydrogen and helium with dozens of natural satellites."
+        },
+        {
+            "id": "planet_saturn",
+            "name": "Saturn",
+            "type": "Gas Giant Planet",
+            "description": "The second-largest planet in the Solar System, celebrated for its extensive planetary ring system and numerous moons."
+        },
+        {
+            "id": "planet_uranus",
+            "name": "Uranus",
+            "type": "Ice Giant Planet",
+            "description": "An outer outer planet categorized as an ice giant, containing a highly tilted rotation axis and a system of moons."
+        },
+        {
+            "id": "planet_neptune",
+            "name": "Neptune",
+            "type": "Ice Giant Planet",
+            "description": "The farthest major planet from the Sun, classified as an ice giant with strong winds and active atmospheric patterns."
+        },
+        {
+            "id": "protoplanetary_disk",
+            "name": "Protoplanetary Disk",
+            "type": "Nebular Structure",
+            "description": "A circumstellar disk of dense gas and dust surrounding a newly formed protostar, serving as the birthplace of planets."
+        },
+        {
+            "id": "concept_planetesimal",
+            "name": "Planetesimal",
+            "type": "Scientific Concept",
+            "description": "Solid objects created through the collision and accretion of dust grains within a protoplanetary disk."
+        },
+        {
+            "id": "concept_protoplanet",
+            "name": "Protoplanet",
+            "type": "Scientific Concept",
+            "description": "Large planetary embryos generated from the merging of planetesimals that undergo internal differentiation."
+        },
+        {
+            "id": "region_asteroid_belt",
+            "name": "Main Asteroid Belt",
+            "type": "Region",
+            "description": "A circumstellar region located between the orbits of Mars and Jupiter occupied by numerous small, irregularly shaped rocky objects."
+        },
+        {
+            "id": "region_kuiper_belt",
+            "name": "Kuiper Belt",
+            "type": "Region",
+            "description": "A vast, torus-shaped debris disk in the outer Solar System extending past the orbit of Neptune, hosting cold, icy objects and dwarf planets."
+        },
+        {
+            "id": "region_oort_cloud",
+            "name": "Oort Cloud",
+            "type": "Region",
+            "description": "An immense spherical cloud of icy bodies proposed to surround the Sun at the furthest margins of its gravitational influence."
+        },
+        {
+            "id": "dwarf_planet_pluto",
+            "name": "Pluto",
+            "type": "Dwarf Planet",
+            "description": "A icy dwarf planet and prominent plutoid located within the Kuiper Belt, orbited by five known moons."
+        },
+        {
+            "id": "dwarf_planet_ceres",
+            "name": "Ceres",
+            "type": "Dwarf Planet",
+            "description": "The largest object situated in the main asteroid belt, classified as a dwarf planet due to its spherical shape."
+        },
+        {
+            "id": "dwarf_planet_eris",
+            "name": "Eris",
+            "type": "Dwarf Planet",
+            "description": "A highly massive trans-Neptunian plutoid and dwarf planet located in the outer solar system."
+        },
+        {
+            "id": "dwarf_planet_haumea",
+            "name": "Haumea",
+            "type": "Dwarf Planet",
+            "description": "An elongated dwarf planet and official plutoid orbiting within the Kuiper Belt."
+        },
+        {
+            "id": "dwarf_planet_makemake",
+            "name": "Makemake",
+            "type": "Dwarf Planet",
+            "description": "A major Kuiper Belt object classified as an official plutoid and dwarf planet."
+        },
+        {
+            "id": "candidate_sedna",
+            "name": "Sedna",
+            "type": "Celestial Body",
+            "description": "A distant plutoid candidate possessing a highly eccentric orbit spanning thousands of Earth years."
+        },
+        {
+            "id": "moon_earth_moon",
+            "name": "Moon",
+            "type": "Natural Satellite",
+            "description": "The solitary natural satellite of planet Earth, orbiting at an average distance of roughly 384,400 kilometers."
+        },
+        {
+            "id": "moon_phobos",
+            "name": "Phobos",
+            "type": "Natural Satellite",
+            "description": "The larger and closer of the two natural satellites orbiting Mars."
+        },
+        {
+            "id": "moon_deimos",
+            "name": "Deimos",
+            "type": "Natural Satellite",
+            "description": "The smaller and more distant of the two natural satellites orbiting Mars."
+        },
+        {
+            "id": "moon_io",
+            "name": "Io",
+            "type": "Natural Satellite",
+            "description": "The innermost Galilean moon of Jupiter, known for extreme volcanic activity fueled by intense tidal heating."
+        },
+        {
+            "id": "moon_europa",
+            "name": "Europa",
+            "type": "Natural Satellite",
+            "description": "A Galilean moon of Jupiter exhibiting a smooth icy surface covering a subterranean liquid water ocean."
+        },
+        {
+            "id": "moon_ganymede",
+            "name": "Ganymede",
+            "type": "Natural Satellite",
+            "description": "The largest natural satellite in the Solar System, orbiting Jupiter and possessing its own magnetic field."
+        },
+        {
+            "id": "moon_callisto",
+            "name": "Callisto",
+            "type": "Natural Satellite",
+            "description": "The outermost Galilean moon of Jupiter, characterized by an ancient, heavily cratered surface."
+        },
+        {
+            "id": "moon_titan",
+            "name": "Titan",
+            "type": "Natural Satellite",
+            "description": "The largest moon of Saturn, distinguished by a dense atmosphere and surface liquid hydrocarbon lakes."
+        },
+        {
+            "id": "moon_enceladus",
+            "name": "Enceladus",
+            "type": "Natural Satellite",
+            "description": "A small icy satellite of Saturn featuring active cryovolcanic geysers venting from a sub-surface ocean."
+        },
+        {
+            "id": "moon_triton",
+            "name": "Triton",
+            "type": "Natural Satellite",
+            "description": "The largest moon of Neptune, exhibiting a retrograde orbit that implies gravitational capture from the Kuiper Belt."
+        },
+        {
+            "id": "moon_charon",
+            "name": "Charon",
+            "type": "Natural Satellite",
+            "description": "The largest natural satellite of Pluto, which mutually tidally locks with its parent dwarf planet."
+        },
+        {
+            "id": "exoplanet_hot_jupiter",
+            "name": "Hot Jupiter",
+            "type": "Exoplanet Class",
+            "description": "A category of giant exoplanets structurally comparable to Jupiter but maintaining short-period, close-in orbits near their host stars."
+        },
+        {
+            "id": "exoplanet_hot_neptune",
+            "name": "Hot Neptune",
+            "type": "Exoplanet Class",
+            "description": "An exoplanet class similar to Neptune but situated in immediate proximity to its host star, driving high core densities and stripped envelopes."
+        },
+        {
+            "id": "exoplanet_cold_jupiter",
+            "name": "Cold Jupiter",
+            "type": "Exoplanet Class",
+            "description": "A gas giant exoplanet that orbits its parent star at a wide distance residing safely behind the system's frost line."
+        },
+        {
+            "id": "concept_frost_line",
+            "name": "Frost Line",
+            "type": "Scientific Concept",
+            "description": "The radial boundary in a protoplanetary nebula where temperatures fall enough to allow volatile compounds to condense into solid grains."
+        },
+        {
+            "id": "theory_nice_model",
+            "name": "Nice Model",
+            "type": "Theory",
+            "description": "A dynamic migration theory describing the late orbital rearrangement of the gas and ice giant planets within the early Solar System."
+        },
+        {
+            "id": "event_lunar_eclipse",
+            "name": "Lunar Eclipse",
+            "type": "Astronomical Event",
+            "description": "An alignment occurring when the Earth passes between the Moon and the Sun, placing the Moon completely or partially inside Earth's shadow."
+        },
+        {
+            "id": "event_solar_eclipse",
+            "name": "Solar Eclipse",
+            "type": "Astronomical Event",
+            "description": "An alignment occurring when the Moon passes between the Earth and the Sun, blocking the Sun's light from the viewpoint of Earth."
+        },
+        {
+            "id": "mission_new_horizons",
+            "name": "New Horizons",
+            "type": "Spacecraft",
+            "description": "A NASA space exploration probe designed to perform flyby investigations of the Pluto system and various outer Kuiper Belt targets."
+        },
+        {
+            "id": "comet_tempel_1",
+            "name": "Tempel 1",
+            "type": "Comet",
+            "description": "A short-period comet visited by NASA's Deep Impact mission, which released an impactor to study its interior composition."
+        },
+        {
+            "id": "asteroid_itokawa",
+            "name": "25143 Itokawa",
+            "type": "Near-Earth Asteroid",
+            "description": "A small near-Earth asteroid and the first asteroid from which JAXA's Hayabusa mission returned a surface sample to Earth."
+        },
+        {
+            "id": "kbo_arrokoth",
+            "name": "486958 Arrokoth",
+            "type": "Kuiper Belt Object",
+            "description": "A cold classical Kuiper Belt object visited by New Horizons, found to be a contact binary formed by the gentle, low-speed merger of two separate bodies."
+        },
+        {
+            "id": "moon_rosalind",
+            "name": "Rosalind",
+            "type": "Natural Satellite",
+            "description": "A small inner moon of Uranus discovered from Voyager 2 imagery."
+        },
+        {
+            "id": "moon_belinda",
+            "name": "Belinda",
+            "type": "Natural Satellite",
+            "description": "A small inner moon of Uranus discovered from Voyager 2 imagery."
+        },
+        {
+            "id": "moon_puck",
+            "name": "Puck",
+            "type": "Natural Satellite",
+            "description": "The largest of Uranus's inner moons, discovered by Voyager 2 in 1985."
+        },
+        {
+            "id": "star_51_pegasi",
+            "name": "51 Pegasi",
+            "type": "Star",
+            "description": "A Sun-like star in the constellation Pegasus, notable as the host of the first exoplanet discovered orbiting a main-sequence star."
+        },
+        {
+            "id": "exoplanet_51_pegasi_b",
+            "name": "51 Pegasi b",
+            "type": "Exoplanet",
+            "description": "The first exoplanet discovered orbiting a Sun-like star, a gas giant on a short-period orbit that established the 'hot Jupiter' class."
+        },
+        {
+            "id": "star_hd_209458",
+            "name": "HD 209458",
+            "type": "Star",
+            "description": "A star hosting HD 209458 b, the first exoplanet observed transiting its host star."
+        },
+        {
+            "id": "exoplanet_hd_209458_b",
+            "name": "HD 209458 b",
+            "type": "Exoplanet",
+            "description": "A hot Jupiter exoplanet discovered via the transit method, notable as the first exoplanet confirmed to transit its host star."
+        },
+        {
+            "id": "system_hl_tauri",
+            "name": "HL Tauri",
+            "type": "Protostellar System",
+            "description": "A very young star system whose protoplanetary disk was imaged by ALMA in radio wavelengths, revealing concentric gaps thought to be carved by forming planets."
+        },
+        {
+            "id": "system_beta_pictoris",
+            "name": "Beta Pictoris",
+            "type": "Star System",
+            "description": "A young star system with a prominent debris disk and at least two known giant planets, used as a case study of ongoing planet formation."
+        },
+        {
+            "id": "feature_tombaugh_regio",
+            "name": "Tombaugh Regio",
+            "type": "Surface Feature",
+            "description": "A large heart-shaped bright region on Pluto's surface, imaged by New Horizons and named after Pluto's discoverer Clyde Tombaugh."
+        },
+        {
+            "id": "feature_ahuna_mons",
+            "name": "Ahuna Mons",
+            "type": "Surface Feature",
+            "description": "A prominent cryovolcanic dome on Ceres, relatively young and uncratered compared to its surroundings."
+        },
+        {
+            "id": "feature_kwanzaa_tholus",
+            "name": "Kwanzaa Tholus",
+            "type": "Surface Feature",
+            "description": "A small domical mountain (tholus) on Ceres, believed to have degraded in height over time due to the weakness of its icy material."
+        },
+        {
+            "id": "feature_great_red_spot",
+            "name": "Great Red Spot",
+            "type": "Atmospheric Feature",
+            "description": "A persistent high-pressure anticyclonic storm in Jupiter's atmosphere, the largest storm in the Solar System."
+        },
+        {
+            "id": "feature_great_dark_spot",
+            "name": "Great Dark Spot",
+            "type": "Atmospheric Feature",
+            "description": "A transient anticyclonic storm system observed in Neptune's atmosphere by Voyager 2."
+        },
+        {
+            "id": "feature_tycho_crater",
+            "name": "Tycho Crater",
+            "type": "Surface Feature",
+            "description": "A prominent, relatively young rayed impact crater on the Moon with a complex central peak structure."
+        },
+        {
+            "id": "terrain_cantaloupe",
+            "name": "Cantaloupe Terrain",
+            "type": "Terrain Type",
+            "description": "A distinctive dimpled, cratered-melon-like terrain type found on the surface of Triton."
+        },
+        {
+            "id": "mission_cassini",
+            "name": "Cassini",
+            "type": "Spacecraft",
+            "description": "A NASA/ESA/ASI orbiter that studied Saturn and its system of rings and moons for over a decade."
+        },
+        {
+            "id": "mission_deep_impact",
+            "name": "Deep Impact",
+            "type": "Spacecraft",
+            "description": "A NASA mission that released an impactor into comet Tempel 1 to study the composition of its interior."
+        },
+        {
+            "id": "mission_hayabusa",
+            "name": "Hayabusa",
+            "type": "Spacecraft",
+            "description": "A JAXA spacecraft that visited the near-Earth asteroid 25143 Itokawa and returned surface samples to Earth."
+        },
+        {
+            "id": "mission_messenger",
+            "name": "MESSENGER",
+            "type": "Spacecraft",
+            "description": "A NASA spacecraft that orbited and mapped Mercury, confirming its rocky/metallic composition."
+        },
+        {
+            "id": "mission_voyager_2",
+            "name": "Voyager 2",
+            "type": "Spacecraft",
+            "description": "A NASA probe and the only spacecraft to have flown by Uranus and Neptune, also responsible for close-up imagery of Triton."
+        },
+        {
+            "id": "mission_juno",
+            "name": "Juno",
+            "type": "Spacecraft",
+            "description": "A NASA orbiter studying Jupiter's atmosphere, interior, and polar storms using instruments including JunoCam, MWR, and JIRAM."
+        },
+        {
+            "id": "mission_lro",
+            "name": "Lunar Reconnaissance Orbiter",
+            "type": "Spacecraft",
+            "description": "A NASA orbiter that has mapped the Moon's surface in high resolution, including features such as Tycho Crater."
+        },
+        {
+            "id": "observatory_hubble",
+            "name": "Hubble Space Telescope",
+            "type": "Observatory",
+            "description": "A space-based optical/UV/near-infrared telescope used to image Solar System targets such as Jupiter's Great Red Spot and Uranus's moons and clouds."
+        },
+        {
+            "id": "observatory_alma",
+            "name": "ALMA",
+            "type": "Observatory",
+            "description": "The Atacama Large Millimeter/submillimeter Array, a ground-based radio observatory that imaged the protoplanetary disk gaps around HL Tauri."
+        },
+        {
+            "id": "theory_core_accretion",
+            "name": "Core Accretion Model",
+            "type": "Theory",
+            "description": "A planet formation theory in which a rocky core grows through the collision and sticking of dust and planetesimals, eventually accreting a gaseous envelope if massive enough."
+        },
+        {
+            "id": "theory_disk_instability",
+            "name": "Disk Instability Model",
+            "type": "Theory",
+            "description": "A planet formation theory in which a local overdensity in a protoplanetary disk collapses directly under self-gravity to form a planet, characterized by the Toomre instability criterion."
+        }
+    ],
+    "aliases": [
+        {
+            "canonical": "Sun",
+            "aliases": [
+                "protosun"
+            ]
+        },
+        {
+            "canonical": "Nice Model",
+            "aliases": [
+                "Nice model"
+            ]
+        },
+        {
+            "canonical": "Main Asteroid Belt",
+            "aliases": [
+                "asteroid belt"
+            ]
+        },
+        {
+            "canonical": "Frost Line",
+            "aliases": [
+                "snow line"
+            ]
+        },
+        {
+            "canonical": "486958 Arrokoth",
+            "aliases": [
+                "Arrokoth",
+                "Ultima Thule"
+            ]
+        },
+        {
+            "canonical": "25143 Itokawa",
+            "aliases": [
+                "Itokawa"
+            ]
+        },
+        {
+            "canonical": "Lunar Reconnaissance Orbiter",
+            "aliases": [
+                "LRO"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "subject": "solar_system",
+            "relation": "contains",
+            "object": "star_sun",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_mercury",
+            "relation": "orbits",
+            "object": "star_sun",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_venus",
+            "relation": "orbits",
+            "object": "star_sun",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_earth",
+            "relation": "orbits",
+            "object": "star_sun",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_mars",
+            "relation": "orbits",
+            "object": "star_sun",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_jupiter",
+            "relation": "orbits",
+            "object": "star_sun",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_saturn",
+            "relation": "orbits",
+            "object": "star_sun",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_uranus",
+            "relation": "orbits",
+            "object": "star_sun",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_neptune",
+            "relation": "orbits",
+            "object": "star_sun",
+            "confidence": 0.99
+        },
+        {
+            "subject": "solar_system",
+            "relation": "contains",
+            "object": "region_asteroid_belt",
+            "confidence": 0.99
+        },
+        {
+            "subject": "solar_system",
+            "relation": "contains",
+            "object": "region_kuiper_belt",
+            "confidence": 0.99
+        },
+        {
+            "subject": "solar_system",
+            "relation": "contains",
+            "object": "region_oort_cloud",
+            "confidence": 0.99
+        },
+        {
+            "subject": "solar_system",
+            "relation": "formed_from",
+            "object": "protoplanetary_disk",
+            "confidence": 0.98
+        },
+        {
+            "subject": "concept_planetesimal",
+            "relation": "formed_from",
+            "object": "protoplanetary_disk",
+            "confidence": 0.95
+        },
+        {
+            "subject": "concept_protoplanet",
+            "relation": "formed_from",
+            "object": "concept_planetesimal",
+            "confidence": 0.95
+        },
+        {
+            "subject": "region_asteroid_belt",
+            "relation": "contains",
+            "object": "dwarf_planet_ceres",
+            "confidence": 0.99
+        },
+        {
+            "subject": "region_kuiper_belt",
+            "relation": "contains",
+            "object": "dwarf_planet_pluto",
+            "confidence": 0.99
+        },
+        {
+            "subject": "region_kuiper_belt",
+            "relation": "contains",
+            "object": "dwarf_planet_haumea",
+            "confidence": 0.99
+        },
+        {
+            "subject": "region_kuiper_belt",
+            "relation": "contains",
+            "object": "dwarf_planet_makemake",
+            "confidence": 0.99
+        },
+        {
+            "subject": "region_kuiper_belt",
+            "relation": "contains",
+            "object": "dwarf_planet_eris",
+            "confidence": 0.99
+        },
+        {
+            "subject": "region_kuiper_belt",
+            "relation": "contains",
+            "object": "candidate_sedna",
+            "confidence": 0.9
+        },
+        {
+            "subject": "planet_earth",
+            "relation": "has_satellite",
+            "object": "moon_earth_moon",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_mars",
+            "relation": "has_satellite",
+            "object": "moon_phobos",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_mars",
+            "relation": "has_satellite",
+            "object": "moon_deimos",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_jupiter",
+            "relation": "has_satellite",
+            "object": "moon_io",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_jupiter",
+            "relation": "has_satellite",
+            "object": "moon_europa",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_jupiter",
+            "relation": "has_satellite",
+            "object": "moon_ganymede",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_jupiter",
+            "relation": "has_satellite",
+            "object": "moon_callisto",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_saturn",
+            "relation": "has_satellite",
+            "object": "moon_titan",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_saturn",
+            "relation": "has_satellite",
+            "object": "moon_enceladus",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_neptune",
+            "relation": "has_satellite",
+            "object": "moon_triton",
+            "confidence": 0.99
+        },
+        {
+            "subject": "dwarf_planet_pluto",
+            "relation": "has_satellite",
+            "object": "moon_charon",
+            "confidence": 0.99
+        },
+        {
+            "subject": "exoplanet_cold_jupiter",
+            "relation": "depends_on",
+            "object": "concept_frost_line",
+            "confidence": 0.95
+        },
+        {
+            "subject": "theory_nice_model",
+            "relation": "studied",
+            "object": "solar_system",
+            "confidence": 0.95
+        },
+        {
+            "subject": "mission_new_horizons",
+            "relation": "visited",
+            "object": "dwarf_planet_pluto",
+            "confidence": 0.99
+        },
+        {
+            "subject": "event_lunar_eclipse",
+            "relation": "depends_on",
+            "object": "planet_earth",
+            "confidence": 0.95
+        },
+        {
+            "subject": "event_solar_eclipse",
+            "relation": "depends_on",
+            "object": "moon_earth_moon",
+            "confidence": 0.95
+        },
+        {
+            "subject": "mission_new_horizons",
+            "relation": "visited",
+            "object": "kbo_arrokoth",
+            "confidence": 0.99
+        },
+        {
+            "subject": "region_kuiper_belt",
+            "relation": "contains",
+            "object": "kbo_arrokoth",
+            "confidence": 0.9
+        },
+        {
+            "subject": "mission_deep_impact",
+            "relation": "visited",
+            "object": "comet_tempel_1",
+            "confidence": 0.99
+        },
+        {
+            "subject": "mission_hayabusa",
+            "relation": "visited",
+            "object": "asteroid_itokawa",
+            "confidence": 0.99
+        },
+        {
+            "subject": "mission_messenger",
+            "relation": "visited",
+            "object": "planet_mercury",
+            "confidence": 0.99
+        },
+        {
+            "subject": "mission_voyager_2",
+            "relation": "visited",
+            "object": "planet_uranus",
+            "confidence": 0.99
+        },
+        {
+            "subject": "mission_voyager_2",
+            "relation": "visited",
+            "object": "planet_neptune",
+            "confidence": 0.99
+        },
+        {
+            "subject": "mission_voyager_2",
+            "relation": "visited",
+            "object": "moon_triton",
+            "confidence": 0.99
+        },
+        {
+            "subject": "mission_cassini",
+            "relation": "visited",
+            "object": "planet_saturn",
+            "confidence": 0.99
+        },
+        {
+            "subject": "mission_juno",
+            "relation": "visited",
+            "object": "planet_jupiter",
+            "confidence": 0.99
+        },
+        {
+            "subject": "mission_lro",
+            "relation": "visited",
+            "object": "moon_earth_moon",
+            "confidence": 0.99
+        },
+        {
+            "subject": "observatory_hubble",
+            "relation": "observed",
+            "object": "planet_jupiter",
+            "confidence": 0.9
+        },
+        {
+            "subject": "observatory_hubble",
+            "relation": "observed",
+            "object": "planet_uranus",
+            "confidence": 0.9
+        },
+        {
+            "subject": "observatory_alma",
+            "relation": "observed",
+            "object": "system_hl_tauri",
+            "confidence": 0.95
+        },
+        {
+            "subject": "feature_tombaugh_regio",
+            "relation": "located_on",
+            "object": "dwarf_planet_pluto",
+            "confidence": 0.99
+        },
+        {
+            "subject": "feature_ahuna_mons",
+            "relation": "located_on",
+            "object": "dwarf_planet_ceres",
+            "confidence": 0.99
+        },
+        {
+            "subject": "feature_kwanzaa_tholus",
+            "relation": "located_on",
+            "object": "dwarf_planet_ceres",
+            "confidence": 0.99
+        },
+        {
+            "subject": "feature_great_red_spot",
+            "relation": "located_on",
+            "object": "planet_jupiter",
+            "confidence": 0.99
+        },
+        {
+            "subject": "feature_great_dark_spot",
+            "relation": "located_on",
+            "object": "planet_neptune",
+            "confidence": 0.95
+        },
+        {
+            "subject": "feature_tycho_crater",
+            "relation": "located_on",
+            "object": "moon_earth_moon",
+            "confidence": 0.99
+        },
+        {
+            "subject": "terrain_cantaloupe",
+            "relation": "located_on",
+            "object": "moon_triton",
+            "confidence": 0.95
+        },
+        {
+            "subject": "planet_uranus",
+            "relation": "has_satellite",
+            "object": "moon_rosalind",
+            "confidence": 0.95
+        },
+        {
+            "subject": "planet_uranus",
+            "relation": "has_satellite",
+            "object": "moon_belinda",
+            "confidence": 0.95
+        },
+        {
+            "subject": "planet_uranus",
+            "relation": "has_satellite",
+            "object": "moon_puck",
+            "confidence": 0.95
+        },
+        {
+            "subject": "exoplanet_51_pegasi_b",
+            "relation": "orbits",
+            "object": "star_51_pegasi",
+            "confidence": 0.99
+        },
+        {
+            "subject": "exoplanet_51_pegasi_b",
+            "relation": "classified_as",
+            "object": "exoplanet_hot_jupiter",
+            "confidence": 0.95
+        },
+        {
+            "subject": "exoplanet_hd_209458_b",
+            "relation": "orbits",
+            "object": "star_hd_209458",
+            "confidence": 0.99
+        },
+        {
+            "subject": "exoplanet_hd_209458_b",
+            "relation": "classified_as",
+            "object": "exoplanet_hot_jupiter",
+            "confidence": 0.9
+        },
+        {
+            "subject": "theory_core_accretion",
+            "relation": "studied",
+            "object": "solar_system",
+            "confidence": 0.9
+        },
+        {
+            "subject": "theory_core_accretion",
+            "relation": "depends_on",
+            "object": "concept_planetesimal",
+            "confidence": 0.9
+        },
+        {
+            "subject": "theory_disk_instability",
+            "relation": "studied",
+            "object": "solar_system",
+            "confidence": 0.9
+        },
+        {
+            "subject": "theory_disk_instability",
+            "relation": "depends_on",
+            "object": "protoplanetary_disk",
+            "confidence": 0.9
+        }
+    ],
+    "hierarchy": {
+        "title": "Introduction to Planetary Astronomy and Heliophysics",
+        "children": [
+            {
+                "title": "Cosmogony and Solar System Formation",
+                "children": [
+                    {
+                        "id": "solar_system",
+                        "name": "Solar System",
+                        "type": "Celestial System",
+                        "description": "The gravitationally bound planetary system consisting of the Sun and all the objects that orbit it, formed approximately 4.57 billion years ago."
+                    },
+                    {
+                        "id": "protoplanetary_disk",
+                        "name": "Protoplanetary Disk",
+                        "type": "Nebular Structure",
+                        "description": "A circumstellar disk of dense gas and dust surrounding a newly formed protostar, serving as the birthplace of planets."
+                    },
+                    {
+                        "id": "concept_planetesimal",
+                        "name": "Planetesimal",
+                        "type": "Scientific Concept",
+                        "description": "Solid objects created through the collision and accretion of dust grains within a protoplanetary disk."
+                    },
+                    {
+                        "id": "concept_protoplanet",
+                        "name": "Protoplanet",
+                        "type": "Scientific Concept",
+                        "description": "Large planetary embryos generated from the merging of planetesimals that undergo internal differentiation."
+                    },
+                    {
+                        "id": "concept_frost_line",
+                        "name": "Frost Line",
+                        "type": "Scientific Concept",
+                        "description": "The radial boundary in a protoplanetary nebula where temperatures fall enough to allow volatile compounds to condense into solid grains."
+                    },
+                    {
+                        "id": "theory_nice_model",
+                        "name": "Nice Model",
+                        "type": "Theory",
+                        "description": "A dynamic migration theory describing the late orbital rearrangement of the gas and ice giant planets within the early Solar System."
+                    }
+                ]
+            },
+            {
+                "title": "The Central Star and Major Planetary Systems",
+                "children": [
+                    {
+                        "id": "star_sun",
+                        "name": "Sun",
+                        "type": "Star",
+                        "description": "The main-sequence star located at the center of the Solar System, composed primarily of hydrogen and helium, which generates energy via nuclear fusion."
+                    },
+                    {
+                        "id": "planet_mercury",
+                        "name": "Mercury",
+                        "type": "Terrestrial Planet",
+                        "description": "The innermost rocky planet in the Solar System, characterized by its lack of natural satellites and highly cratered surface."
+                    },
+                    {
+                        "id": "planet_venus",
+                        "name": "Venus",
+                        "type": "Terrestrial Planet",
+                        "description": "The second planet from the Sun, featuring a dense atmosphere, extreme greenhouse heating, and no moons."
+                    },
+                    {
+                        "id": "planet_earth",
+                        "name": "Earth",
+                        "type": "Terrestrial Planet",
+                        "description": "The third planet from the Sun, characterized by its dynamic geological activity, surface water, and one natural satellite."
+                    },
+                    {
+                        "id": "planet_mars",
+                        "name": "Mars",
+                        "type": "Terrestrial Planet",
+                        "description": "The fourth rocky planet from the Sun, containing a thin atmosphere, surface craters, and two small natural satellites."
+                    },
+                    {
+                        "id": "planet_jupiter",
+                        "name": "Jupiter",
+                        "type": "Gas Giant Planet",
+                        "description": "The largest planet in the Solar System, a gas giant primarily composed of hydrogen and helium with dozens of natural satellites."
+                    },
+                    {
+                        "id": "planet_saturn",
+                        "name": "Saturn",
+                        "type": "Gas Giant Planet",
+                        "description": "The second-largest planet in the Solar System, celebrated for its extensive planetary ring system and numerous moons."
+                    },
+                    {
+                        "id": "planet_uranus",
+                        "name": "Uranus",
+                        "type": "Ice Giant Planet",
+                        "description": "An outer outer planet categorized as an ice giant, containing a highly tilted rotation axis and a system of moons."
+                    },
+                    {
+                        "id": "planet_neptune",
+                        "name": "Neptune",
+                        "type": "Ice Giant Planet",
+                        "description": "The farthest major planet from the Sun, classified as an ice giant with strong winds and active atmospheric patterns."
+                    }
+                ]
+            },
+            {
+                "title": "Natural Satellites and Orbital Syncs",
+                "children": [
+                    {
+                        "id": "moon_earth_moon",
+                        "name": "Moon",
+                        "type": "Natural Satellite",
+                        "description": "The solitary natural satellite of planet Earth, orbiting at an average distance of roughly 384,400 kilometers."
+                    },
+                    {
+                        "id": "moon_phobos",
+                        "name": "Phobos",
+                        "type": "Natural Satellite",
+                        "description": "The larger and closer of the two natural satellites orbiting Mars."
+                    },
+                    {
+                        "id": "moon_deimos",
+                        "name": "Deimos",
+                        "type": "Natural Satellite",
+                        "description": "The smaller and more distant of the two natural satellites orbiting Mars."
+                    },
+                    {
+                        "id": "moon_io",
+                        "name": "Io",
+                        "type": "Natural Satellite",
+                        "description": "The innermost Galilean moon of Jupiter, known for extreme volcanic activity fueled by intense tidal heating."
+                    },
+                    {
+                        "id": "moon_europa",
+                        "name": "Europa",
+                        "type": "Natural Satellite",
+                        "description": "A Galilean moon of Jupiter exhibiting a smooth icy surface covering a subterranean liquid water ocean."
+                    },
+                    {
+                        "id": "moon_ganymede",
+                        "name": "Ganymede",
+                        "type": "Natural Satellite",
+                        "description": "The largest natural satellite in the Solar System, orbiting Jupiter and possessing its own magnetic field."
+                    },
+                    {
+                        "id": "moon_callisto",
+                        "name": "Callisto",
+                        "type": "Natural Satellite",
+                        "description": "The outermost Galilean moon of Jupiter, characterized by an ancient, heavily cratered surface."
+                    },
+                    {
+                        "id": "moon_titan",
+                        "name": "Titan",
+                        "type": "Natural Satellite",
+                        "description": "The largest moon of Saturn, distinguished by a dense atmosphere and surface liquid hydrocarbon lakes."
+                    },
+                    {
+                        "id": "moon_enceladus",
+                        "name": "Enceladus",
+                        "type": "Natural Satellite",
+                        "description": "A small icy satellite of Saturn featuring active cryovolcanic geysers venting from a sub-surface ocean."
+                    },
+                    {
+                        "id": "moon_triton",
+                        "name": "Triton",
+                        "type": "Natural Satellite",
+                        "description": "The largest moon of Neptune, exhibiting a retrograde orbit that implies gravitational capture from the Kuiper Belt."
+                    }
+                ]
+            },
+            {
+                "title": "Minor Planets and Small Debris Regions",
+                "children": [
+                    {
+                        "id": "region_asteroid_belt",
+                        "name": "Main Asteroid Belt",
+                        "type": "Region",
+                        "description": "A circumstellar region located between the orbits of Mars and Jupiter occupied by numerous small, irregularly shaped rocky objects."
+                    },
+                    {
+                        "id": "region_kuiper_belt",
+                        "name": "Kuiper Belt",
+                        "type": "Region",
+                        "description": "A vast, torus-shaped debris disk in the outer Solar System extending past the orbit of Neptune, hosting cold, icy objects and dwarf planets."
+                    },
+                    {
+                        "id": "region_oort_cloud",
+                        "name": "Oort Cloud",
+                        "type": "Region",
+                        "description": "An immense spherical cloud of icy bodies proposed to surround the Sun at the furthest margins of its gravitational influence."
+                    },
+                    {
+                        "id": "dwarf_planet_ceres",
+                        "name": "Ceres",
+                        "type": "Dwarf Planet",
+                        "description": "The largest object situated in the main asteroid belt, classified as a dwarf planet due to its spherical shape."
+                    },
+                    {
+                        "id": "dwarf_planet_pluto",
+                        "name": "Pluto",
+                        "type": "Dwarf Planet",
+                        "description": "A icy dwarf planet and prominent plutoid located within the Kuiper Belt, orbited by five known moons."
+                    },
+                    {
+                        "id": "moon_charon",
+                        "name": "Charon",
+                        "type": "Natural Satellite",
+                        "description": "The largest natural satellite of Pluto, which mutually tidally locks with its parent dwarf planet."
+                    },
+                    {
+                        "id": "dwarf_planet_eris",
+                        "name": "Eris",
+                        "type": "Dwarf Planet",
+                        "description": "A highly massive trans-Neptunian plutoid and dwarf planet located in the outer solar system."
+                    },
+                    {
+                        "id": "dwarf_planet_haumea",
+                        "name": "Haumea",
+                        "type": "Dwarf Planet",
+                        "description": "An elongated dwarf planet and official plutoid orbiting within the Kuiper Belt."
+                    },
+                    {
+                        "id": "dwarf_planet_makemake",
+                        "name": "Makemake",
+                        "type": "Dwarf Planet",
+                        "description": "A major Kuiper Belt object classified as an official plutoid and dwarf planet."
+                    },
+                    {
+                        "id": "candidate_sedna",
+                        "name": "Sedna",
+                        "type": "Celestial Body",
+                        "description": "A distant plutoid candidate possessing a highly eccentric orbit spanning thousands of Earth years."
+                    }
+                ]
+            },
+            {
+                "title": "Exoplanetary Science and Classes",
+                "children": [
+                    {
+                        "id": "exoplanet_hot_jupiter",
+                        "name": "Hot Jupiter",
+                        "type": "Exoplanet Class",
+                        "description": "A category of giant exoplanets structurally comparable to Jupiter but maintaining short-period, close-in orbits near their host stars."
+                    },
+                    {
+                        "id": "exoplanet_hot_neptune",
+                        "name": "Hot Neptune",
+                        "type": "Exoplanet Class",
+                        "description": "An exoplanet class similar to Neptune but situated in immediate proximity to its host star, driving high core densities and stripped envelopes."
+                    },
+                    {
+                        "id": "exoplanet_cold_jupiter",
+                        "name": "Cold Jupiter",
+                        "type": "Exoplanet Class",
+                        "description": "A gas giant exoplanet that orbits its parent star at a wide distance residing safely behind the system's frost line."
+                    }
+                ]
+            },
+            {
+                "title": "Syzygy Events and Space Exploration",
+                "children": [
+                    {
+                        "id": "event_lunar_eclipse",
+                        "name": "Lunar Eclipse",
+                        "type": "Astronomical Event",
+                        "description": "An alignment occurring when the Earth passes between the Moon and the Sun, placing the Moon completely or partially inside Earth's shadow."
+                    },
+                    {
+                        "id": "event_solar_eclipse",
+                        "name": "Solar Eclipse",
+                        "type": "Astronomical Event",
+                        "description": "An alignment occurring when the Moon passes between the Earth and the Sun, blocking the Sun's light from the viewpoint of Earth."
+                    },
+                    {
+                        "id": "mission_new_horizons",
+                        "name": "New Horizons",
+                        "type": "Spacecraft",
+                        "description": "A NASA space exploration probe designed to perform flyby investigations of the Pluto system and various outer Kuiper Belt targets."
+                    }
+                ]
+            },
+            {
+                "title": "Notable Small Bodies Visited by Spacecraft",
+                "children": [
+                    {
+                        "id": "comet_tempel_1",
+                        "name": "Tempel 1",
+                        "type": "Comet",
+                        "description": "A short-period comet visited by NASA's Deep Impact mission, which released an impactor to study its interior composition."
+                    },
+                    {
+                        "id": "asteroid_itokawa",
+                        "name": "25143 Itokawa",
+                        "type": "Near-Earth Asteroid",
+                        "description": "A small near-Earth asteroid and the first asteroid from which JAXA's Hayabusa mission returned a surface sample to Earth."
+                    },
+                    {
+                        "id": "kbo_arrokoth",
+                        "name": "486958 Arrokoth",
+                        "type": "Kuiper Belt Object",
+                        "description": "A cold classical Kuiper Belt object visited by New Horizons, found to be a contact binary formed by the gentle, low-speed merger of two separate bodies."
+                    }
+                ]
+            },
+            {
+                "title": "Additional Named Moons",
+                "children": [
+                    {
+                        "id": "moon_rosalind",
+                        "name": "Rosalind",
+                        "type": "Natural Satellite",
+                        "description": "A small inner moon of Uranus discovered from Voyager 2 imagery."
+                    },
+                    {
+                        "id": "moon_belinda",
+                        "name": "Belinda",
+                        "type": "Natural Satellite",
+                        "description": "A small inner moon of Uranus discovered from Voyager 2 imagery."
+                    },
+                    {
+                        "id": "moon_puck",
+                        "name": "Puck",
+                        "type": "Natural Satellite",
+                        "description": "The largest of Uranus's inner moons, discovered by Voyager 2 in 1985."
+                    }
+                ]
+            },
+            {
+                "title": "Exoplanets and Host Star Systems",
+                "children": [
+                    {
+                        "id": "star_51_pegasi",
+                        "name": "51 Pegasi",
+                        "type": "Star",
+                        "description": "A Sun-like star in the constellation Pegasus, notable as the host of the first exoplanet discovered orbiting a main-sequence star."
+                    },
+                    {
+                        "id": "exoplanet_51_pegasi_b",
+                        "name": "51 Pegasi b",
+                        "type": "Exoplanet",
+                        "description": "The first exoplanet discovered orbiting a Sun-like star, a gas giant on a short-period orbit that established the 'hot Jupiter' class."
+                    },
+                    {
+                        "id": "star_hd_209458",
+                        "name": "HD 209458",
+                        "type": "Star",
+                        "description": "A star hosting HD 209458 b, the first exoplanet observed transiting its host star."
+                    },
+                    {
+                        "id": "exoplanet_hd_209458_b",
+                        "name": "HD 209458 b",
+                        "type": "Exoplanet",
+                        "description": "A hot Jupiter exoplanet discovered via the transit method, notable as the first exoplanet confirmed to transit its host star."
+                    },
+                    {
+                        "id": "system_hl_tauri",
+                        "name": "HL Tauri",
+                        "type": "Protostellar System",
+                        "description": "A very young star system whose protoplanetary disk was imaged by ALMA in radio wavelengths, revealing concentric gaps thought to be carved by forming planets."
+                    },
+                    {
+                        "id": "system_beta_pictoris",
+                        "name": "Beta Pictoris",
+                        "type": "Star System",
+                        "description": "A young star system with a prominent debris disk and at least two known giant planets, used as a case study of ongoing planet formation."
+                    }
+                ]
+            },
+            {
+                "title": "Named Surface and Atmospheric Features",
+                "children": [
+                    {
+                        "id": "feature_tombaugh_regio",
+                        "name": "Tombaugh Regio",
+                        "type": "Surface Feature",
+                        "description": "A large heart-shaped bright region on Pluto's surface, imaged by New Horizons and named after Pluto's discoverer Clyde Tombaugh."
+                    },
+                    {
+                        "id": "feature_ahuna_mons",
+                        "name": "Ahuna Mons",
+                        "type": "Surface Feature",
+                        "description": "A prominent cryovolcanic dome on Ceres, relatively young and uncratered compared to its surroundings."
+                    },
+                    {
+                        "id": "feature_kwanzaa_tholus",
+                        "name": "Kwanzaa Tholus",
+                        "type": "Surface Feature",
+                        "description": "A small domical mountain (tholus) on Ceres, believed to have degraded in height over time due to the weakness of its icy material."
+                    },
+                    {
+                        "id": "feature_great_red_spot",
+                        "name": "Great Red Spot",
+                        "type": "Atmospheric Feature",
+                        "description": "A persistent high-pressure anticyclonic storm in Jupiter's atmosphere, the largest storm in the Solar System."
+                    },
+                    {
+                        "id": "feature_great_dark_spot",
+                        "name": "Great Dark Spot",
+                        "type": "Atmospheric Feature",
+                        "description": "A transient anticyclonic storm system observed in Neptune's atmosphere by Voyager 2."
+                    },
+                    {
+                        "id": "feature_tycho_crater",
+                        "name": "Tycho Crater",
+                        "type": "Surface Feature",
+                        "description": "A prominent, relatively young rayed impact crater on the Moon with a complex central peak structure."
+                    },
+                    {
+                        "id": "terrain_cantaloupe",
+                        "name": "Cantaloupe Terrain",
+                        "type": "Terrain Type",
+                        "description": "A distinctive dimpled, cratered-melon-like terrain type found on the surface of Triton."
+                    }
+                ]
+            },
+            {
+                "title": "Spacecraft Missions and Observatories",
+                "children": [
+                    {
+                        "id": "mission_cassini",
+                        "name": "Cassini",
+                        "type": "Spacecraft",
+                        "description": "A NASA/ESA/ASI orbiter that studied Saturn and its system of rings and moons for over a decade."
+                    },
+                    {
+                        "id": "mission_deep_impact",
+                        "name": "Deep Impact",
+                        "type": "Spacecraft",
+                        "description": "A NASA mission that released an impactor into comet Tempel 1 to study the composition of its interior."
+                    },
+                    {
+                        "id": "mission_hayabusa",
+                        "name": "Hayabusa",
+                        "type": "Spacecraft",
+                        "description": "A JAXA spacecraft that visited the near-Earth asteroid 25143 Itokawa and returned surface samples to Earth."
+                    },
+                    {
+                        "id": "mission_messenger",
+                        "name": "MESSENGER",
+                        "type": "Spacecraft",
+                        "description": "A NASA spacecraft that orbited and mapped Mercury, confirming its rocky/metallic composition."
+                    },
+                    {
+                        "id": "mission_voyager_2",
+                        "name": "Voyager 2",
+                        "type": "Spacecraft",
+                        "description": "A NASA probe and the only spacecraft to have flown by Uranus and Neptune, also responsible for close-up imagery of Triton."
+                    },
+                    {
+                        "id": "mission_juno",
+                        "name": "Juno",
+                        "type": "Spacecraft",
+                        "description": "A NASA orbiter studying Jupiter's atmosphere, interior, and polar storms using instruments including JunoCam, MWR, and JIRAM."
+                    },
+                    {
+                        "id": "mission_lro",
+                        "name": "Lunar Reconnaissance Orbiter",
+                        "type": "Spacecraft",
+                        "description": "A NASA orbiter that has mapped the Moon's surface in high resolution, including features such as Tycho Crater."
+                    },
+                    {
+                        "id": "observatory_hubble",
+                        "name": "Hubble Space Telescope",
+                        "type": "Observatory",
+                        "description": "A space-based optical/UV/near-infrared telescope used to image Solar System targets such as Jupiter's Great Red Spot and Uranus's moons and clouds."
+                    },
+                    {
+                        "id": "observatory_alma",
+                        "name": "ALMA",
+                        "type": "Observatory",
+                        "description": "The Atacama Large Millimeter/submillimeter Array, a ground-based radio observatory that imaged the protoplanetary disk gaps around HL Tauri."
+                    }
+                ]
+            },
+            {
+                "title": "Planet Formation Theories",
+                "children": [
+                    {
+                        "id": "theory_core_accretion",
+                        "name": "Core Accretion Model",
+                        "type": "Theory",
+                        "description": "A planet formation theory in which a rocky core grows through the collision and sticking of dust and planetesimals, eventually accreting a gaseous envelope if massive enough."
+                    },
+                    {
+                        "id": "theory_disk_instability",
+                        "name": "Disk Instability Model",
+                        "type": "Theory",
+                        "description": "A planet formation theory in which a local overdensity in a protoplanetary disk collapses directly under self-gravity to form a planet, characterized by the Toomre instability criterion."
+                    }
+                ]
+            }
+        ]
+    }
+}
