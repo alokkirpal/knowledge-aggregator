@@ -88,25 +88,32 @@ def main():
     chunks = chunker.process_documents(
         docs
     )
-
+    from llm.knowledge_store_generator import KnowledgeStoreGenerator
     print(
         f"Chunks: {len(chunks)}"
     )
-    
+    generator = KnowledgeStoreGenerator(
+
+        api_key=os.environ["GEMINI_API_KEY"]
+
+    )
+
+    print("Generating knowledge store...")
+
+    knowledge_store = generator.generate(chunks)
 
     with open(
-        "data/output/chunks.json",
+
+        "data/output/knowledge_store.json",
+
         "w"
+
     ) as f:
 
-        json.dump(
-            chunks,
-            f,
-            indent=2
-        )
+        f.write(knowledge_store)
 
-    print(
-        "Saved chunks.json"
+        print(
+            "Saved chunks.json"
     )
 
 if __name__ == "__main__":

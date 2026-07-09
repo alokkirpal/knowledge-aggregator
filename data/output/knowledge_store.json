@@ -1,0 +1,1343 @@
+```json
+{
+    "domain": "Planetary Science and Solar System Exploration",
+    "entities": [
+        {
+            "id": "solar_system",
+            "name": "Solar System",
+            "type": "Star System",
+            "description": "Our star system, consisting of the Sun and all celestial bodies gravitationally bound to it, including planets, dwarf planets, moons, asteroids, and comets."
+        },
+        {
+            "id": "planet",
+            "name": "Planet",
+            "type": "Classification",
+            "description": "A celestial body that orbits a star, is massive enough to be self-gravitating to assume a hydrostatic equilibrium shape, and has cleared its orbital neighborhood."
+        },
+        {
+            "id": "dwarf_planet",
+            "name": "Dwarf Planet",
+            "type": "Classification",
+            "description": "A celestial body that orbits a star, is massive enough to be self-gravitating to assume a hydrostatic equilibrium shape, but has not cleared its orbital neighborhood."
+        },
+        {
+            "id": "natural_satellite",
+            "name": "Natural Satellite",
+            "type": "Classification",
+            "description": "A celestial body that orbits a planet or dwarf planet; commonly referred to as a moon."
+        },
+        {
+            "id": "small_solar_system_body",
+            "name": "Small Solar System Body",
+            "type": "Classification",
+            "description": "Any object in the Solar System that is not a planet, dwarf planet, or natural satellite, including asteroids, comets, and meteoroids."
+        },
+        {
+            "id": "asteroid",
+            "name": "Asteroid",
+            "type": "Celestial Body",
+            "description": "A rocky, airless world that orbits the Sun, too small to be called a planet, primarily found in the asteroid belt."
+        },
+        {
+            "id": "comet",
+            "name": "Comet",
+            "type": "Celestial Body",
+            "description": "An icy, small Solar System body that, when passing close to the Sun, heats up and begins to outgas, displaying a visible coma and sometimes a tail."
+        },
+        {
+            "id": "meteoroid",
+            "name": "Meteoroid",
+            "type": "Celestial Body",
+            "description": "A small rocky or metallic body in outer space, generally smaller than an asteroid."
+        },
+        {
+            "id": "meteor",
+            "name": "Meteor",
+            "type": "Event",
+            "description": "A meteoroid that enters a planetary atmosphere and vaporizes due to friction, creating a streak of light also known as a 'shooting star'."
+        },
+        {
+            "id": "meteorite",
+            "name": "Meteorite",
+            "type": "Object",
+            "description": "A meteoroid that survives its passage through the atmosphere and impacts the surface of a planet or moon."
+        },
+        {
+            "id": "star_sun",
+            "name": "Sun",
+            "type": "Star",
+            "description": "The G-type main-sequence star at the center of the Solar System, comprising approximately 99.86% of its total mass and providing light and heat."
+        },
+        {
+            "id": "planet_mercury",
+            "name": "Mercury",
+            "type": "Planet",
+            "description": "The first planet from the Sun, the smallest and innermost planet in the Solar System, known for its extreme temperature variations and heavily cratered surface."
+        },
+        {
+            "id": "planet_venus",
+            "name": "Venus",
+            "type": "Planet",
+            "description": "The second planet from the Sun, often called Earth's 'sister planet' due to similar size, but with an extremely hot and dense atmosphere dominated by carbon dioxide."
+        },
+        {
+            "id": "planet_earth",
+            "name": "Earth",
+            "type": "Planet",
+            "description": "The third planet from the Sun, the only known astronomical object to harbor life, characterized by vast oceans of liquid water and a diverse atmosphere."
+        },
+        {
+            "id": "planet_mars",
+            "name": "Mars",
+            "type": "Planet",
+            "description": "The fourth planet from the Sun, known for its reddish appearance due to iron oxide on its surface, and the focus of extensive astrobiological research for signs of past life."
+        },
+        {
+            "id": "planet_jupiter",
+            "name": "Jupiter",
+            "type": "Planet",
+            "description": "The fifth planet from the Sun, a gas giant and the largest planet in the Solar System, famous for its Great Red Spot and powerful magnetic field."
+        },
+        {
+            "id": "planet_saturn",
+            "name": "Saturn",
+            "type": "Planet",
+            "description": "The sixth planet from the Sun, a gas giant famous for its prominent and complex ring system composed mainly of ice particles and rocky debris."
+        },
+        {
+            "id": "planet_uranus",
+            "name": "Uranus",
+            "type": "Planet",
+            "description": "The seventh planet from the Sun, an ice giant characterized by its distinct blue-green color and a unique axial tilt, causing extreme seasonal variations."
+        },
+        {
+            "id": "planet_neptune",
+            "name": "Neptune",
+            "type": "Planet",
+            "description": "The eighth and farthest known planet from the Sun, an ice giant known for its strong winds and dynamic weather patterns, including the Great Dark Spot."
+        },
+        {
+            "id": "dwarf_planet_pluto",
+            "name": "Pluto",
+            "type": "Dwarf Planet",
+            "description": "A dwarf planet in the Kuiper Belt, once classified as the ninth planet, known for its eccentric orbit, thin atmosphere, and several moons."
+        },
+        {
+            "id": "dwarf_planet_ceres",
+            "name": "Ceres",
+            "type": "Dwarf Planet",
+            "description": "The largest object in the asteroid belt and the only dwarf planet in the inner Solar System, studied extensively by the Dawn mission."
+        },
+        {
+            "id": "moon_earth",
+            "name": "Moon",
+            "type": "Natural Satellite",
+            "description": "Earth's only permanent natural satellite, the fifth largest moon in the Solar System, playing a crucial role in stabilizing Earth's axial tilt."
+        },
+        {
+            "id": "moon_europa",
+            "name": "Europa",
+            "type": "Natural Satellite",
+            "description": "A moon of Jupiter, believed to harbor a vast subsurface ocean of liquid water beneath its icy crust, making it a prime target for astrobiological exploration."
+        },
+        {
+            "id": "moon_titan",
+            "name": "Titan",
+            "type": "Natural Satellite",
+            "description": "A moon of Saturn, the only moon in the Solar System known to have a dense atmosphere and stable bodies of liquid (methane/ethane) on its surface."
+        },
+        {
+            "id": "moon_enceladus",
+            "name": "Enceladus",
+            "type": "Natural Satellite",
+            "description": "A moon of Saturn, known for its active geysers erupting from its south polar region, which supply material to Saturn's E ring and strongly suggest a subsurface ocean."
+        },
+        {
+            "id": "moon_io",
+            "name": "Io",
+            "type": "Natural Satellite",
+            "description": "A moon of Jupiter, the most volcanically active body in the Solar System due to intense tidal heating from Jupiter."
+        },
+        {
+            "id": "moon_ganymede",
+            "name": "Ganymede",
+            "type": "Natural Satellite",
+            "description": "A moon of Jupiter, the largest moon in the Solar System and the only moon known to have its own magnetic field."
+        },
+        {
+            "id": "moon_callisto",
+            "name": "Callisto",
+            "type": "Natural Satellite",
+            "description": "A moon of Jupiter, the third-largest moon in the Solar System, characterized by its heavily cratered surface and lack of significant tidal heating."
+        },
+        {
+            "id": "moon_charon",
+            "name": "Charon",
+            "type": "Natural Satellite",
+            "description": "The largest moon of Pluto, so massive that Pluto and Charon are sometimes considered a binary system."
+        },
+        {
+            "id": "asteroid_vesta",
+            "name": "Vesta",
+            "type": "Asteroid",
+            "description": "A large asteroid in the asteroid belt, considered a protoplanet due to its differentiated interior, and visited by the Dawn mission."
+        },
+        {
+            "id": "asteroid_pallas",
+            "name": "Pallas",
+            "type": "Asteroid",
+            "description": "A large asteroid in the asteroid belt, notable for its highly inclined and eccentric orbit."
+        },
+        {
+            "id": "asteroid_belt",
+            "name": "Asteroid Belt",
+            "type": "Region",
+            "description": "A torus-shaped region in the Solar System located roughly between the orbits of Mars and Jupiter, containing a great many solid, irregularly shaped bodies called asteroids."
+        },
+        {
+            "id": "kuiper_belt",
+            "name": "Kuiper Belt",
+            "type": "Region",
+            "description": "A disc-shaped region of icy objects beyond the orbit of Neptune, extending from about 30 to 50 AU from the Sun, home to dwarf planets like Pluto."
+        },
+        {
+            "id": "oort_cloud",
+            "name": "Oort Cloud",
+            "type": "Region",
+            "description": "A theoretical spherical cloud of predominantly icy planetesimals believed to surround the Sun at a vast distance, extending far beyond the Kuiper Belt."
+        },
+        {
+            "id": "cryovolcanism",
+            "name": "Cryovolcanism",
+            "type": "Scientific Concept",
+            "description": "A type of volcanism where volatile materials like water, ammonia, or methane erupt instead of molten rock, observed on icy moons and dwarf planets."
+        },
+        {
+            "id": "subsurface_ocean",
+            "name": "Subsurface Ocean",
+            "type": "Scientific Concept",
+            "description": "A layer of liquid water or other liquid beneath the solid surface of a celestial body, often maintained by tidal heating and a key focus in astrobiology."
+        },
+        {
+            "id": "astrobiology",
+            "name": "Astrobiology",
+            "type": "Scientific Discipline",
+            "description": "The scientific study of life in the universe, including its origin, evolution, distribution, and future, encompassing the search for extraterrestrial life."
+        },
+        {
+            "id": "habitability",
+            "name": "Habitability",
+            "type": "Scientific Concept",
+            "description": "The potential of an astronomical object to develop and sustain life, determined by factors like the presence of liquid water, energy sources, and stable environments."
+        },
+        {
+            "id": "planetary_differentiation",
+            "name": "Planetary Differentiation",
+            "type": "Process",
+            "description": "The process by which a planetary body separates into distinct layers (e.g., core, mantle, crust) based on density and chemical composition, typically occurring during its early formation."
+        },
+        {
+            "id": "space_mission",
+            "name": "Space Mission",
+            "type": "Classification",
+            "description": "A journey by a spacecraft to explore space or celestial bodies, often involving complex scientific objectives and engineering challenges."
+        },
+        {
+            "id": "spacecraft",
+            "name": "Spacecraft",
+            "type": "Classification",
+            "description": "A vehicle or machine designed to fly in outer space, typically for communication, Earth observation, navigation, space exploration, or research."
+        },
+        {
+            "id": "telescope_hubble",
+            "name": "Hubble Space Telescope",
+            "type": "Space Telescope",
+            "description": "A space telescope launched by NASA in 1990, providing high-resolution images of the universe primarily in visible and ultraviolet light."
+        },
+        {
+            "id": "telescope_jwst",
+            "name": "James Webb Space Telescope",
+            "type": "Space Telescope",
+            "description": "A space telescope launched in 2021, optimized for infrared astronomy to observe very distant and early galaxies, exoplanets, and objects within our solar system."
+        },
+        {
+            "id": "mission_cassini_huygens",
+            "name": "Cassini-Huygens Mission",
+            "type": "Space Mission",
+            "description": "A joint NASA/ESA/ASI robotic spacecraft mission that studied the planet Saturn and its system, including its rings and natural satellites, from 2004 to 2017."
+        },
+        {
+            "id": "huygens_probe",
+            "name": "Huygens Probe",
+            "type": "Spacecraft",
+            "description": "A robotic lander that was part of the Cassini-Huygens mission, successfully landing on Saturn's moon Titan in 2005, providing the first direct surface measurements."
+        },
+        {
+            "id": "mission_galileo",
+            "name": "Galileo Mission",
+            "type": "Space Mission",
+            "description": "A NASA robotic space mission that studied the planet Jupiter and its moons from 1995 to 2003, providing extensive data on the Jovian system."
+        },
+        {
+            "id": "mission_new_horizons",
+            "name": "New Horizons Mission",
+            "type": "Space Mission",
+            "description": "A NASA robotic space mission launched in 2006 that performed a flyby of Pluto in 2015 and then continued to explore the Kuiper Belt object Arrokoth in 2019."
+        },
+        {
+            "id": "mission_dawn",
+            "name": "Dawn Mission",
+            "type": "Space Mission",
+            "description": "A NASA robotic space mission launched in 2007 that visited and orbited the asteroid Vesta and the dwarf planet Ceres, studying their compositions and structures."
+        },
+        {
+            "id": "voyager_missions",
+            "name": "Voyager Missions",
+            "type": "Space Mission",
+            "description": "Two robotic probes (Voyager 1 and Voyager 2) launched by NASA in 1977 to study the outer Solar System, both of which have now entered interstellar space."
+        },
+        {
+            "id": "mars_rovers",
+            "name": "Mars Rovers",
+            "type": "Classification",
+            "description": "Robotic vehicles designed to traverse the surface of Mars, conducting geological analysis and searching for signs of past or present life."
+        },
+        {
+            "id": "rover_spirit",
+            "name": "Spirit Rover",
+            "type": "Mars Rover",
+            "description": "A Mars rover launched by NASA in 2003 as part of the Mars Exploration Rover mission, exploring Gusev Crater for evidence of past water."
+        },
+        {
+            "id": "rover_opportunity",
+            "name": "Opportunity Rover",
+            "type": "Mars Rover",
+            "description": "A Mars rover launched by NASA in 2003, part of the Mars Exploration Rover mission, exploring Meridiani Planum and setting a longevity record for extraterrestrial rovers."
+        },
+        {
+            "id": "rover_curiosity",
+            "name": "Curiosity Rover",
+            "type": "Mars Rover",
+            "description": "A Mars rover launched by NASA in 2011 as part of the Mars Science Laboratory mission, exploring Gale Crater and Mount Sharp to assess Mars' habitability."
+        },
+        {
+            "id": "rover_perseverance",
+            "name": "Perseverance Rover",
+            "type": "Mars Rover",
+            "description": "A Mars rover launched by NASA in 2020 as part of the Mars 2020 mission, collecting samples and searching for signs of ancient microbial life in Jezero Crater."
+        },
+        {
+            "id": "ingenuity_helicopter",
+            "name": "Ingenuity Helicopter",
+            "type": "Spacecraft",
+            "description": "A robotic coaxial helicopter that accompanied the Perseverance rover to Mars, performing the first powered, controlled flight on another planet."
+        },
+        {
+            "id": "iau",
+            "name": "International Astronomical Union",
+            "type": "Organization",
+            "description": "The globally recognized authority for naming celestial objects and defining astronomical concepts, including the definition of a planet."
+        },
+        {
+            "id": "nasa",
+            "name": "NASA",
+            "type": "Organization",
+            "description": "The National Aeronautics and Space Administration, an independent agency of the U.S. federal government responsible for the civilian space program, aeronautics, and aerospace research."
+        }
+    ],
+    "aliases": [
+        {
+            "canonical": "Sun",
+            "aliases": ["The Sun"]
+        },
+        {
+            "canonical": "Earth",
+            "aliases": ["Planet Earth"]
+        },
+        {
+            "canonical": "Mars",
+            "aliases": ["The Red Planet"]
+        },
+        {
+            "canonical": "Jupiter",
+            "aliases": ["The Gas Giant"]
+        },
+        {
+            "canonical": "Saturn",
+            "aliases": ["The Ringed Planet"]
+        },
+        {
+            "canonical": "Hubble Space Telescope",
+            "aliases": ["HST", "Hubble"]
+        },
+        {
+            "canonical": "James Webb Space Telescope",
+            "aliases": ["JWST", "Webb Telescope"]
+        },
+        {
+            "canonical": "Cassini-Huygens Mission",
+            "aliases": ["Cassini Mission", "Cassini"]
+        },
+        {
+            "canonical": "Huygens Probe",
+            "aliases": ["Huygens Lander"]
+        },
+        {
+            "canonical": "Galileo Mission",
+            "aliases": ["Galileo"]
+        },
+        {
+            "canonical": "New Horizons Mission",
+            "aliases": ["New Horizons"]
+        },
+        {
+            "canonical": "Dawn Mission",
+            "aliases": ["Dawn"]
+        },
+        {
+            "canonical": "International Astronomical Union",
+            "aliases": ["IAU"]
+        },
+        {
+            "canonical": "Natural Satellite",
+            "aliases": ["Moon"]
+        },
+        {
+            "canonical": "Small Solar System Body",
+            "aliases": ["SSSB"]
+        },
+        {
+            "canonical": "Moon",
+            "aliases": ["Earth's Moon"]
+        }
+    ],
+    "relationships": [
+        {
+            "subject": "solar_system",
+            "predicate": "contains",
+            "object": "star_sun",
+            "confidence": 0.99
+        },
+        {
+            "subject": "solar_system",
+            "predicate": "contains_category",
+            "object": "planet",
+            "confidence": 0.95
+        },
+        {
+            "subject": "solar_system",
+            "predicate": "contains_category",
+            "object": "dwarf_planet",
+            "confidence": 0.95
+        },
+        {
+            "subject": "solar_system",
+            "predicate": "contains_category",
+            "object": "natural_satellite",
+            "confidence": 0.95
+        },
+        {
+            "subject": "solar_system",
+            "predicate": "contains_category",
+            "object": "small_solar_system_body",
+            "confidence": 0.95
+        },
+        {
+            "subject": "star_sun",
+            "predicate": "gravitationally_dominates",
+            "object": "solar_system",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_mercury",
+            "predicate": "is_a",
+            "object": "planet",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_venus",
+            "predicate": "is_a",
+            "object": "planet",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_earth",
+            "predicate": "is_a",
+            "object": "planet",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_mars",
+            "predicate": "is_a",
+            "object": "planet",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_jupiter",
+            "predicate": "is_a",
+            "object": "planet",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_saturn",
+            "predicate": "is_a",
+            "object": "planet",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_uranus",
+            "predicate": "is_a",
+            "object": "planet",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_neptune",
+            "predicate": "is_a",
+            "object": "planet",
+            "confidence": 0.99
+        },
+        {
+            "subject": "dwarf_planet_pluto",
+            "predicate": "is_a",
+            "object": "dwarf_planet",
+            "confidence": 0.99
+        },
+        {
+            "subject": "dwarf_planet_ceres",
+            "predicate": "is_a",
+            "object": "dwarf_planet",
+            "confidence": 0.99
+        },
+        {
+            "subject": "moon_earth",
+            "predicate": "is_a",
+            "object": "natural_satellite",
+            "confidence": 0.99
+        },
+        {
+            "subject": "moon_europa",
+            "predicate": "is_a",
+            "object": "natural_satellite",
+            "confidence": 0.99
+        },
+        {
+            "subject": "moon_titan",
+            "predicate": "is_a",
+            "object": "natural_satellite",
+            "confidence": 0.99
+        },
+        {
+            "subject": "moon_enceladus",
+            "predicate": "is_a",
+            "object": "natural_satellite",
+            "confidence": 0.99
+        },
+        {
+            "subject": "moon_io",
+            "predicate": "is_a",
+            "object": "natural_satellite",
+            "confidence": 0.99
+        },
+        {
+            "subject": "moon_ganymede",
+            "predicate": "is_a",
+            "object": "natural_satellite",
+            "confidence": 0.99
+        },
+        {
+            "subject": "moon_callisto",
+            "predicate": "is_a",
+            "object": "natural_satellite",
+            "confidence": 0.99
+        },
+        {
+            "subject": "moon_charon",
+            "predicate": "is_a",
+            "object": "natural_satellite",
+            "confidence": 0.99
+        },
+        {
+            "subject": "asteroid_vesta",
+            "predicate": "is_a",
+            "object": "asteroid",
+            "confidence": 0.99
+        },
+        {
+            "subject": "asteroid_pallas",
+            "predicate": "is_a",
+            "object": "asteroid",
+            "confidence": 0.99
+        },
+        {
+            "subject": "asteroid",
+            "predicate": "is_a",
+            "object": "small_solar_system_body",
+            "confidence": 0.95
+        },
+        {
+            "subject": "comet",
+            "predicate": "is_a",
+            "object": "small_solar_system_body",
+            "confidence": 0.95
+        },
+        {
+            "subject": "meteoroid",
+            "predicate": "is_a",
+            "object": "small_solar_system_body",
+            "confidence": 0.95
+        },
+        {
+            "subject": "meteor",
+            "predicate": "is_a",
+            "object": "event",
+            "confidence": 0.90
+        },
+        {
+            "subject": "meteorite",
+            "predicate": "is_a",
+            "object": "object",
+            "confidence": 0.90
+        },
+        {
+            "subject": "huygens_probe",
+            "predicate": "is_a",
+            "object": "spacecraft",
+            "confidence": 0.99
+        },
+        {
+            "subject": "ingenuity_helicopter",
+            "predicate": "is_a",
+            "object": "spacecraft",
+            "confidence": 0.99
+        },
+        {
+            "subject": "telescope_hubble",
+            "predicate": "is_a",
+            "object": "spacecraft",
+            "confidence": 0.90
+        },
+        {
+            "subject": "telescope_jwst",
+            "predicate": "is_a",
+            "object": "spacecraft",
+            "confidence": 0.90
+        },
+        {
+            "subject": "mission_cassini_huygens",
+            "predicate": "is_a",
+            "object": "space_mission",
+            "confidence": 0.99
+        },
+        {
+            "subject": "mission_galileo",
+            "predicate": "is_a",
+            "object": "space_mission",
+            "confidence": 0.99
+        },
+        {
+            "subject": "mission_new_horizons",
+            "predicate": "is_a",
+            "object": "space_mission",
+            "confidence": 0.99
+        },
+        {
+            "subject": "mission_dawn",
+            "predicate": "is_a",
+            "object": "space_mission",
+            "confidence": 0.99
+        },
+        {
+            "subject": "voyager_missions",
+            "predicate": "is_a",
+            "object": "space_mission",
+            "confidence": 0.99
+        },
+        {
+            "subject": "rover_spirit",
+            "predicate": "is_a",
+            "object": "mars_rovers",
+            "confidence": 0.99
+        },
+        {
+            "subject": "rover_opportunity",
+            "predicate": "is_a",
+            "object": "mars_rovers",
+            "confidence": 0.99
+        },
+        {
+            "subject": "rover_curiosity",
+            "predicate": "is_a",
+            "object": "mars_rovers",
+            "confidence": 0.99
+        },
+        {
+            "subject": "rover_perseverance",
+            "predicate": "is_a",
+            "object": "mars_rovers",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_mercury",
+            "predicate": "orbits",
+            "object": "star_sun",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_venus",
+            "predicate": "orbits",
+            "object": "star_sun",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_earth",
+            "predicate": "orbits",
+            "object": "star_sun",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_mars",
+            "predicate": "orbits",
+            "object": "star_sun",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_jupiter",
+            "predicate": "orbits",
+            "object": "star_sun",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_saturn",
+            "predicate": "orbits",
+            "object": "star_sun",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_uranus",
+            "predicate": "orbits",
+            "object": "star_sun",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_neptune",
+            "predicate": "orbits",
+            "object": "star_sun",
+            "confidence": 0.99
+        },
+        {
+            "subject": "dwarf_planet_pluto",
+            "predicate": "orbits",
+            "object": "star_sun",
+            "confidence": 0.99
+        },
+        {
+            "subject": "dwarf_planet_ceres",
+            "predicate": "orbits",
+            "object": "star_sun",
+            "confidence": 0.99
+        },
+        {
+            "subject": "asteroid",
+            "predicate": "orbits",
+            "object": "star_sun",
+            "confidence": 0.90
+        },
+        {
+            "subject": "comet",
+            "predicate": "orbits",
+            "object": "star_sun",
+            "confidence": 0.90
+        },
+        {
+            "subject": "moon_earth",
+            "predicate": "orbits",
+            "object": "planet_earth",
+            "confidence": 0.99
+        },
+        {
+            "subject": "moon_europa",
+            "predicate": "orbits",
+            "object": "planet_jupiter",
+            "confidence": 0.99
+        },
+        {
+            "subject": "moon_titan",
+            "predicate": "orbits",
+            "object": "planet_saturn",
+            "confidence": 0.99
+        },
+        {
+            "subject": "moon_enceladus",
+            "predicate": "orbits",
+            "object": "planet_saturn",
+            "confidence": 0.99
+        },
+        {
+            "subject": "moon_io",
+            "predicate": "orbits",
+            "object": "planet_jupiter",
+            "confidence": 0.99
+        },
+        {
+            "subject": "moon_ganymede",
+            "predicate": "orbits",
+            "object": "planet_jupiter",
+            "confidence": 0.99
+        },
+        {
+            "subject": "moon_callisto",
+            "predicate": "orbits",
+            "object": "planet_jupiter",
+            "confidence": 0.99
+        },
+        {
+            "subject": "moon_charon",
+            "predicate": "orbits",
+            "object": "dwarf_planet_pluto",
+            "confidence": 0.99
+        },
+        {
+            "subject": "asteroid_belt",
+            "predicate": "part_of",
+            "object": "solar_system",
+            "confidence": 0.99
+        },
+        {
+            "subject": "kuiper_belt",
+            "predicate": "part_of",
+            "object": "solar_system",
+            "confidence": 0.99
+        },
+        {
+            "subject": "oort_cloud",
+            "predicate": "part_of",
+            "object": "solar_system",
+            "confidence": 0.99
+        },
+        {
+            "subject": "asteroid_belt",
+            "predicate": "contains",
+            "object": "dwarf_planet_ceres",
+            "confidence": 0.99
+        },
+        {
+            "subject": "asteroid_belt",
+            "predicate": "contains",
+            "object": "asteroid_vesta",
+            "confidence": 0.99
+        },
+        {
+            "subject": "asteroid_belt",
+            "predicate": "contains",
+            "object": "asteroid_pallas",
+            "confidence": 0.99
+        },
+        {
+            "subject": "kuiper_belt",
+            "predicate": "contains",
+            "object": "dwarf_planet_pluto",
+            "confidence": 0.99
+        },
+        {
+            "subject": "mission_cassini_huygens",
+            "predicate": "studied",
+            "object": "planet_saturn",
+            "confidence": 0.99
+        },
+        {
+            "subject": "mission_cassini_huygens",
+            "predicate": "studied",
+            "object": "moon_titan",
+            "confidence": 0.99
+        },
+        {
+            "subject": "mission_cassini_huygens",
+            "predicate": "studied",
+            "object": "moon_enceladus",
+            "confidence": 0.99
+        },
+        {
+            "subject": "huygens_probe",
+            "predicate": "part_of",
+            "object": "mission_cassini_huygens",
+            "confidence": 0.99
+        },
+        {
+            "subject": "huygens_probe",
+            "predicate": "landed_on",
+            "object": "moon_titan",
+            "confidence": 0.99
+        },
+        {
+            "subject": "mission_galileo",
+            "predicate": "studied",
+            "object": "planet_jupiter",
+            "confidence": 0.99
+        },
+        {
+            "subject": "mission_galileo",
+            "predicate": "studied",
+            "object": "moon_europa",
+            "confidence": 0.99
+        },
+        {
+            "subject": "mission_galileo",
+            "predicate": "studied",
+            "object": "moon_io",
+            "confidence": 0.99
+        },
+        {
+            "subject": "mission_galileo",
+            "predicate": "studied",
+            "object": "moon_ganymede",
+            "confidence": 0.99
+        },
+        {
+            "subject": "mission_galileo",
+            "predicate": "studied",
+            "object": "moon_callisto",
+            "confidence": 0.99
+        },
+        {
+            "subject": "mission_new_horizons",
+            "predicate": "visited",
+            "object": "dwarf_planet_pluto",
+            "confidence": 0.99
+        },
+        {
+            "subject": "dwarf_planet_pluto",
+            "predicate": "visited_by",
+            "object": "mission_new_horizons",
+            "confidence": 0.99
+        },
+        {
+            "subject": "mission_new_horizons",
+            "predicate": "explored",
+            "object": "kuiper_belt",
+            "confidence": 0.95
+        },
+        {
+            "subject": "mission_dawn",
+            "predicate": "visited",
+            "object": "asteroid_vesta",
+            "confidence": 0.99
+        },
+        {
+            "subject": "asteroid_vesta",
+            "predicate": "visited_by",
+            "object": "mission_dawn",
+            "confidence": 0.99
+        },
+        {
+            "subject": "mission_dawn",
+            "predicate": "visited",
+            "object": "dwarf_planet_ceres",
+            "confidence": 0.99
+        },
+        {
+            "subject": "dwarf_planet_ceres",
+            "predicate": "visited_by",
+            "object": "mission_dawn",
+            "confidence": 0.99
+        },
+        {
+            "subject": "voyager_missions",
+            "predicate": "studied",
+            "object": "planet_jupiter",
+            "confidence": 0.90
+        },
+        {
+            "subject": "voyager_missions",
+            "predicate": "studied",
+            "object": "planet_saturn",
+            "confidence": 0.90
+        },
+        {
+            "subject": "voyager_missions",
+            "predicate": "studied",
+            "object": "planet_uranus",
+            "confidence": 0.90
+        },
+        {
+            "subject": "voyager_missions",
+            "predicate": "studied",
+            "object": "planet_neptune",
+            "confidence": 0.90
+        },
+        {
+            "subject": "rover_spirit",
+            "predicate": "explored",
+            "object": "planet_mars",
+            "confidence": 0.99
+        },
+        {
+            "subject": "rover_opportunity",
+            "predicate": "explored",
+            "object": "planet_mars",
+            "confidence": 0.99
+        },
+        {
+            "subject": "rover_curiosity",
+            "predicate": "explored",
+            "object": "planet_mars",
+            "confidence": 0.99
+        },
+        {
+            "subject": "rover_perseverance",
+            "predicate": "explored",
+            "object": "planet_mars",
+            "confidence": 0.99
+        },
+        {
+            "subject": "rover_perseverance",
+            "predicate": "carried",
+            "object": "ingenuity_helicopter",
+            "confidence": 0.99
+        },
+        {
+            "subject": "ingenuity_helicopter",
+            "predicate": "flew_on",
+            "object": "planet_mars",
+            "confidence": 0.99
+        },
+        {
+            "subject": "moon_europa",
+            "predicate": "has_potential_for",
+            "object": "subsurface_ocean",
+            "confidence": 0.95
+        },
+        {
+            "subject": "moon_enceladus",
+            "predicate": "exhibits",
+            "object": "cryovolcanism",
+            "confidence": 0.99
+        },
+        {
+            "subject": "moon_enceladus",
+            "predicate": "has_potential_for",
+            "object": "subsurface_ocean",
+            "confidence": 0.99
+        },
+        {
+            "subject": "moon_io",
+            "predicate": "exhibits_intense",
+            "object": "volcanism",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_jupiter",
+            "predicate": "has_satellite",
+            "object": "moon_europa",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_jupiter",
+            "predicate": "has_satellite",
+            "object": "moon_io",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_jupiter",
+            "predicate": "has_satellite",
+            "object": "moon_ganymede",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_jupiter",
+            "predicate": "has_satellite",
+            "object": "moon_callisto",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_saturn",
+            "predicate": "has_satellite",
+            "object": "moon_titan",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_saturn",
+            "predicate": "has_satellite",
+            "object": "moon_enceladus",
+            "confidence": 0.99
+        },
+        {
+            "subject": "dwarf_planet_pluto",
+            "predicate": "has_satellite",
+            "object": "moon_charon",
+            "confidence": 0.99
+        },
+        {
+            "subject": "astrobiology",
+            "predicate": "studies",
+            "object": "habitability",
+            "confidence": 0.95
+        },
+        {
+            "subject": "planet_mars",
+            "predicate": "is_a_focus_of",
+            "object": "astrobiology",
+            "confidence": 0.90
+        },
+        {
+            "subject": "moon_europa",
+            "predicate": "is_a_focus_of",
+            "object": "astrobiology",
+            "confidence": 0.90
+        },
+        {
+            "subject": "moon_enceladus",
+            "predicate": "is_a_focus_of",
+            "object": "astrobiology",
+            "confidence": 0.90
+        },
+        {
+            "subject": "iau",
+            "predicate": "defines",
+            "object": "planet",
+            "confidence": 0.99
+        },
+        {
+            "subject": "iau",
+            "predicate": "defines",
+            "object": "dwarf_planet",
+            "confidence": 0.99
+        },
+        {
+            "subject": "meteoroid",
+            "predicate": "forms",
+            "object": "meteor",
+            "confidence": 0.99
+        },
+        {
+            "subject": "meteor",
+            "predicate": "forms",
+            "object": "meteorite",
+            "confidence": 0.99
+        },
+        {
+            "subject": "telescope_hubble",
+            "predicate": "launched_by",
+            "object": "nasa",
+            "confidence": 0.99
+        },
+        {
+            "subject": "telescope_jwst",
+            "predicate": "launched_by",
+            "object": "nasa",
+            "confidence": 0.99
+        },
+        {
+            "subject": "mission_cassini_huygens",
+            "predicate": "launched_by",
+            "object": "nasa",
+            "confidence": 0.90
+        },
+        {
+            "subject": "mission_galileo",
+            "predicate": "launched_by",
+            "object": "nasa",
+            "confidence": 0.99
+        },
+        {
+            "subject": "mission_new_horizons",
+            "predicate": "launched_by",
+            "object": "nasa",
+            "confidence": 0.99
+        },
+        {
+            "subject": "mission_dawn",
+            "predicate": "launched_by",
+            "object": "nasa",
+            "confidence": 0.99
+        },
+        {
+            "subject": "voyager_missions",
+            "predicate": "launched_by",
+            "object": "nasa",
+            "confidence": 0.99
+        },
+        {
+            "subject": "rover_spirit",
+            "predicate": "launched_by",
+            "object": "nasa",
+            "confidence": 0.99
+        },
+        {
+            "subject": "rover_opportunity",
+            "predicate": "launched_by",
+            "object": "nasa",
+            "confidence": 0.99
+        },
+        {
+            "subject": "rover_curiosity",
+            "predicate": "launched_by",
+            "object": "nasa",
+            "confidence": 0.99
+        },
+        {
+            "subject": "rover_perseverance",
+            "predicate": "launched_by",
+            "object": "nasa",
+            "confidence": 0.99
+        },
+        {
+            "subject": "planet_earth",
+            "predicate": "has_satellite",
+            "object": "moon_earth",
+            "confidence": 0.99
+        }
+    ],
+    "hierarchy": {
+        "title": "Planetary Science and Solar System Exploration",
+        "children": [
+            {
+                "title": "Introduction to the Solar System",
+                "children": [
+                    {"id": "solar_system", "name": "Solar System"},
+                    {"id": "star_sun", "name": "Sun"},
+                    {"id": "iau", "name": "International Astronomical Union"}
+                ]
+            },
+            {
+                "title": "Classification of Celestial Bodies",
+                "children": [
+                    {"id": "planet", "name": "Planet"},
+                    {"id": "dwarf_planet", "name": "Dwarf Planet"},
+                    {"id": "natural_satellite", "name": "Natural Satellite"},
+                    {
+                        "title": "Small Solar System Bodies",
+                        "children": [
+                            {"id": "small_solar_system_body", "name": "Small Solar System Body (Classification)"},
+                            {"id": "asteroid", "name": "Asteroid"},
+                            {"id": "comet", "name": "Comet"},
+                            {"id": "meteoroid", "name": "Meteoroid"},
+                            {"id": "meteor", "name": "Meteor"},
+                            {"id": "meteorite", "name": "Meteorite"}
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Planets of Our Solar System",
+                "children": [
+                    {
+                        "title": "Inner Rocky Planets",
+                        "children": [
+                            {"id": "planet_mercury", "name": "Mercury"},
+                            {"id": "planet_venus", "name": "Venus"},
+                            {"id": "planet_earth", "name": "Earth"},
+                            {"id": "planet_mars", "name": "Mars"}
+                        ]
+                    },
+                    {
+                        "title": "Outer Gas and Ice Giants",
+                        "children": [
+                            {"id": "planet_jupiter", "name": "Jupiter"},
+                            {"id": "planet_saturn", "name": "Saturn"},
+                            {"id": "planet_uranus", "name": "Uranus"},
+                            {"id": "planet_neptune", "name": "Neptune"}
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Other Significant Bodies",
+                "children": [
+                    {
+                        "title": "Dwarf Planets",
+                        "children": [
+                            {"id": "dwarf_planet_pluto", "name": "Pluto"},
+                            {"id": "dwarf_planet_ceres", "name": "Ceres"}
+                        ]
+                    },
+                    {
+                        "title": "Prominent Asteroids",
+                        "children": [
+                            {"id": "asteroid_vesta", "name": "Vesta"},
+                            {"id": "asteroid_pallas", "name": "Pallas"}
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Natural Satellites (Moons)",
+                "children": [
+                    {"id": "moon_earth", "name": "Moon (Earth's)"},
+                    {
+                        "title": "Moons of Jupiter",
+                        "children": [
+                            {"id": "moon_io", "name": "Io"},
+                            {"id": "moon_europa", "name": "Europa"},
+                            {"id": "moon_ganymede", "name": "Ganymede"},
+                            {"id": "moon_callisto", "name": "Callisto"}
+                        ]
+                    },
+                    {
+                        "title": "Moons of Saturn",
+                        "children": [
+                            {"id": "moon_titan", "name": "Titan"},
+                            {"id": "moon_enceladus", "name": "Enceladus"}
+                        ]
+                    },
+                    {"id": "moon_charon", "name": "Charon"}
+                ]
+            },
+            {
+                "title": "Regions of the Solar System",
+                "children": [
+                    {"id": "asteroid_belt", "name": "Asteroid Belt"},
+                    {"id": "kuiper_belt", "name": "Kuiper Belt"},
+                    {"id": "oort_cloud", "name": "Oort Cloud"}
+                ]
+            },
+            {
+                "title": "Key Concepts in Planetary Science",
+                "children": [
+                    {"id": "planetary_differentiation", "name": "Planetary Differentiation"},
+                    {"id": "cryovolcanism", "name": "Cryovolcanism"},
+                    {"id": "subsurface_ocean", "name": "Subsurface Ocean"},
+                    {"id": "astrobiology", "name": "Astrobiology"},
+                    {"id": "habitability", "name": "Habitability"}
+                ]
+            },
+            {
+                "title": "Space Exploration and Research",
+                "children": [
+                    {"id": "nasa", "name": "NASA"},
+                    {"id": "spacecraft", "name": "Spacecraft (Classification)"},
+                    {"id": "space_mission", "name": "Space Mission (Classification)"},
+                    {"id": "mars_rovers", "name": "Mars Rovers (Classification)"},
+                    {
+                        "title": "Space Telescopes",
+                        "children": [
+                            {"id": "telescope_hubble", "name": "Hubble Space Telescope"},
+                            {"id": "telescope_jwst", "name": "James Webb Space Telescope"}
+                        ]
+                    },
+                    {
+                        "title": "Notable Space Missions",
+                        "children": [
+                            {"id": "mission_cassini_huygens", "name": "Cassini-Huygens Mission"},
+                            {"id": "huygens_probe", "name": "Huygens Probe"},
+                            {"id": "mission_galileo", "name": "Galileo Mission"},
+                            {"id": "mission_new_horizons", "name": "New Horizons Mission"},
+                            {"id": "mission_dawn", "name": "Dawn Mission"},
+                            {"id": "voyager_missions", "name": "Voyager Missions"}
+                        ]
+                    },
+                    {
+                        "title": "Specific Robotic Explorers",
+                        "children": [
+                            {"id": "rover_spirit", "name": "Spirit Rover"},
+                            {"id": "rover_opportunity", "name": "Opportunity Rover"},
+                            {"id": "rover_curiosity", "name": "Curiosity Rover"},
+                            {"id": "rover_perseverance", "name": "Perseverance Rover"},
+                            {"id": "ingenuity_helicopter", "name": "Ingenuity Helicopter"}
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+```
